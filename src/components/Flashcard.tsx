@@ -32,7 +32,7 @@ export default function Flashcard({ flashcardId, onBack }: FlashcardProps) {
       try {
         const response = await fetch('/data/flashcards.json')
         const flashcardSets = await response.json()
-        const flashcardSet = flashcardSets.find((set: any) => set.id === flashcardId)
+        const flashcardSet = flashcardSets.find((set: FlashcardData) => set.id === flashcardId)
         
         if (flashcardSet) {
           setFlashcardData(flashcardSet)

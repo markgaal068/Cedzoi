@@ -38,7 +38,7 @@ export default function Quiz({ quizId, onBack }: QuizProps) {
       try {
         const response = await fetch('/data/quizzes.json')
         const quizzes = await response.json()
-        const quiz = quizzes.find((q: any) => q.id === quizId)
+        const quiz = quizzes.find((q: QuizData) => q.id === quizId)
         
         if (quiz) {
           setQuizData(quiz)
@@ -213,22 +213,6 @@ export default function Quiz({ quizId, onBack }: QuizProps) {
 
   const currentQuestion = quizData.questions[currentQuestionIndex]
   const isMultipleChoice = currentQuestion.type === 'multiple' || Array.isArray(currentQuestion.correctAnswer)
-  
-  let isCorrect = false
-  if (showResult) {
-    if (isMultipleChoice) {
-      const correctAnswers = Array.isArray(currentQuestion.correctAnswer) 
-        ? currentQuestion.correctAnswer 
-        : [currentQuestion.correctAnswer]
-      
-      const sortedSelected = [...selectedAnswers].sort()
-      const sortedCorrect = [...correctAnswers].sort()
-      isCorrect = sortedSelected.length === sortedCorrect.length && 
-                  sortedSelected.every((val, index) => val === sortedCorrect[index])
-    } else {
-      isCorrect = selectedAnswer === currentQuestion.correctAnswer
-    }
-  }
 
   return (
     <div className="max-w-3xl mx-auto">

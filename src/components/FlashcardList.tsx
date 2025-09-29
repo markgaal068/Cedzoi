@@ -23,7 +23,7 @@ export default function FlashcardList({ onFlashcardSelect }: FlashcardListProps)
         const response = await fetch('/data/flashcards.json')
         const flashcardData = await response.json()
         
-        const flashcardSetsWithCount: FlashcardSet[] = flashcardData.map((set: any) => ({
+        const flashcardSetsWithCount: FlashcardSet[] = flashcardData.map((set: { id: string; title: string; description: string; cards: { id: string; front: string; back: string }[] }) => ({
           id: set.id,
           title: set.title,
           description: set.description,

@@ -23,7 +23,7 @@ export default function QuizList({ onQuizSelect }: QuizListProps) {
         const response = await fetch('/data/quizzes.json')
         const quizData = await response.json()
         
-        const quizzesWithCount: Quiz[] = quizData.map((quiz: any) => ({
+        const quizzesWithCount: Quiz[] = quizData.map((quiz: { id: string; title: string; description: string; questions: { id: string; question: string; options: string[]; correctAnswer: number | number[]; explanation?: string; type?: string }[] }) => ({
           id: quiz.id,
           title: quiz.title,
           description: quiz.description,
