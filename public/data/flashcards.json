@@ -1,0 +1,153 @@
+[
+  {
+    "id": "flashcard-1",
+    "title": "Angol Szókincs",
+    "description": "Alapvető angol szavak és kifejezések",
+    "cards": [
+      {
+        "id": "card-1",
+        "front": "Hello",
+        "back": "Szia / Helló"
+      },
+      {
+        "id": "card-2",
+        "front": "Goodbye",
+        "back": "Viszlát"
+      },
+      {
+        "id": "card-3",
+        "front": "Thank you",
+        "back": "Köszönöm"
+      },
+      {
+        "id": "card-4",
+        "front": "Please",
+        "back": "Kérem / Legyen szíves"
+      },
+      {
+        "id": "card-5",
+        "front": "Sorry",
+        "back": "Elnézést / Sajnálom"
+      },
+      {
+        "id": "card-6",
+        "front": "Yes",
+        "back": "Igen"
+      },
+      {
+        "id": "card-7",
+        "front": "No",
+        "back": "Nem"
+      },
+      {
+        "id": "card-8",
+        "front": "Water",
+        "back": "Víz"
+      },
+      {
+        "id": "card-9",
+        "front": "Food",
+        "back": "Étel"
+      },
+      {
+        "id": "card-10",
+        "front": "House",
+        "back": "Ház"
+      }
+    ]
+  },
+  {
+    "id": "flashcard-2",
+    "title": "Programozás Alapok",
+    "description": "JavaScript alapfogalmak és szintaxis",
+    "cards": [
+      {
+        "id": "card-1",
+        "front": "Mi a JavaScript?",
+        "back": "Egy programozási nyelv, amelyet főleg weboldalak interaktivitásához használnak."
+      },
+      {
+        "id": "card-2",
+        "front": "Mi a változó?",
+        "back": "Egy tároló, amely értékeket tárol, és később felhasználható a programban."
+      },
+      {
+        "id": "card-3",
+        "front": "Mi a függvény?",
+        "back": "Egy kódblokk, amelyet meghívhatunk, és egy adott feladatot végez el."
+      },
+      {
+        "id": "card-4",
+        "front": "Mi a tömb?",
+        "back": "Egy adatstruktúra, amely több értéket tárol egy változóban."
+      },
+      {
+        "id": "card-5",
+        "front": "Mi a ciklus?",
+        "back": "Egy programozási szerkezet, amely lehetővé teszi a kód ismételt végrehajtását."
+      },
+      {
+        "id": "card-6",
+        "front": "Mi a feltétel?",
+        "back": "Egy logikai kifejezés, amely meghatározza, hogy a kód melyik része fut le."
+      },
+      {
+        "id": "card-7",
+        "front": "Mi az objektum?",
+        "back": "Egy adatstruktúra, amely tulajdonságokat és metódusokat tartalmaz."
+      },
+      {
+        "id": "card-8",
+        "front": "Mi a string?",
+        "back": "Szöveges adattípus, amely karakterek sorozatát tárolja."
+      }
+    ]
+  },
+  {
+    "id": "flashcard-3",
+    "title": "Biológia",
+    "description": "Emberi test felépítése és működése",
+    "cards": [
+      {
+        "id": "card-1",
+        "front": "Mi a sejt?",
+        "back": "Az élet alapegysége, minden élő szervezet sejtekből épül fel."
+      },
+      {
+        "id": "card-2",
+        "front": "Mi a DNS?",
+        "back": "A dezoxiribonukleinsav, amely a genetikai információt tárolja."
+      },
+      {
+        "id": "card-3",
+        "front": "Mi a mitokondrium?",
+        "back": "A sejt 'erőműve', amely energiát termel a sejt számára."
+      },
+      {
+        "id": "card-4",
+        "front": "Mi a fotoszintézis?",
+        "back": "A folyamat, amely során a növények napfényből és szén-dioxidból cukrot állítanak elő."
+      },
+      {
+        "id": "card-5",
+        "front": "Mi a vérkeringés?",
+        "back": "A folyamat, amely során a vér a szív és az erek segítségével kering a testben."
+      },
+      {
+        "id": "card-6",
+        "front": "Mi a légzés?",
+        "back": "A folyamat, amely során oxigént veszünk fel és szén-dioxidot adunk le."
+      },
+      {
+        "id": "card-7",
+        "front": "Mi az emésztés?",
+        "back": "A folyamat, amely során a táplálékot lebontjuk és felszívjuk a testbe."
+      },
+      {
+        "id": "card-8",
+        "front": "Mi az idegrendszer?",
+        "back": "A test kommunikációs rendszere, amely jeleket küld a különböző szervek között."
+      }
+    ]
+  }
+]

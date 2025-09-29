@@ -1,0 +1,116 @@
+[
+  {
+    "id": "quiz-1",
+    "title": "Matematika Alapok",
+    "description": "Alapvető matematikai műveletek és fogalmak",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Mennyi 2 + 2?",
+        "options": ["3", "4", "5", "6"],
+        "correctAnswer": 1,
+        "explanation": "2 + 2 = 4"
+      },
+      {
+        "id": "q2",
+        "question": "Mi a 3² értéke?",
+        "options": ["6", "9", "12", "15"],
+        "correctAnswer": 1,
+        "explanation": "3² = 3 × 3 = 9"
+      },
+      {
+        "id": "q3",
+        "question": "Mennyi 10 ÷ 2?",
+        "options": ["4", "5", "6", "8"],
+        "correctAnswer": 1,
+        "explanation": "10 ÷ 2 = 5"
+      },
+      {
+        "id": "q4",
+        "question": "Mi a 7 × 8 eredménye?",
+        "options": ["54", "56", "58", "60"],
+        "correctAnswer": 1,
+        "explanation": "7 × 8 = 56"
+      },
+      {
+        "id": "q5",
+        "question": "Mennyi 15 - 7?",
+        "options": ["6", "7", "8", "9"],
+        "correctAnswer": 2,
+        "explanation": "15 - 7 = 8"
+      },
+      {
+        "id": "q6",
+        "question": "Melyik számok prímszámok?",
+        "options": ["2", "4", "7", "9"],
+        "correctAnswer": [0, 2],
+        "type": "multiple",
+        "explanation": "A 2 és a 7 prímszámok (csak 1-gyel és önmagukkal oszthatók), míg a 4 és a 9 összetett számok."
+      }
+    ]
+  },
+  {
+    "id": "quiz-2",
+    "title": "Magyar Irodalom",
+    "description": "Klasszikus magyar irodalmi művek és szerzők",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Ki írta a 'Toldi' című művet?",
+        "options": ["Arany János", "Petőfi Sándor", "Vörösmarty Mihály", "Jókai Mór"],
+        "correctAnswer": 0,
+        "explanation": "Arany János írta a Toldi című epikus költeményt 1847-ben."
+      },
+      {
+        "id": "q2",
+        "question": "Melyik művet írta Petőfi Sándor?",
+        "options": ["Az ember tragédiája", "A kőszívű ember fiai", "János vitéz", "A rab"],
+        "correctAnswer": 2,
+        "explanation": "Petőfi Sándor írta a János vitéz című meseverset 1844-ben."
+      },
+      {
+        "id": "q3",
+        "question": "Ki volt a 'Bánk bán' szerzője?",
+        "options": ["Vörösmarty Mihály", "Katona József", "Madách Imre", "Mikszáth Kálmán"],
+        "correctAnswer": 1,
+        "explanation": "Katona József írta a Bánk bán című drámát 1819-ben."
+      }
+    ]
+  },
+  {
+    "id": "quiz-3",
+    "title": "Történelem",
+    "description": "Magyar történelem fontosabb eseményei",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Mikor volt a honfoglalás?",
+        "options": ["895", "896", "897", "898"],
+        "correctAnswer": 1,
+        "explanation": "A honfoglalás 896-ban történt, amikor a magyar törzsek Árpád vezetésével letelepedtek a Kárpát-medencében."
+      },
+      {
+        "id": "q2",
+        "question": "Ki volt az első magyar király?",
+        "options": ["Árpád", "István", "László", "Kálmán"],
+        "correctAnswer": 1,
+        "explanation": "I. István volt az első magyar király, akit 1000-ben koronáztak meg."
+      },
+      {
+        "id": "q3",
+        "question": "Mikor volt a mohácsi csata?",
+        "options": ["1525", "1526", "1527", "1528"],
+        "correctAnswer": 1,
+        "explanation": "A mohácsi csata 1526. augusztus 29-én zajlott le, ahol a magyar sereg vereséget szenvedett a törököktől."
+      },
+      {
+        "id": "q4",
+        "question": "Melyik események a magyar történelem fontosabb mérföldkövei?",
+        "options": ["Honfoglalás (896)", "Mohácsi csata (1526)", "1848-as forradalom", "Trianoni béke (1920)"],
+        "correctAnswer": [0, 1, 2, 3],
+        "type": "multiple",
+        "explanation": "Mind a négy esemény fontos mérföldkő a magyar történelemben."
+      }
+    ]
+  }
+]

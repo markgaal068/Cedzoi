@@ -1,36 +1,155 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cedzői
 
-## Getting Started
+Egy modern, letisztult Next.js alkalmazás feleletválasztós tesztek és flashcard tananyagok gyakorlásához.
 
-First, run the development server:
+## Funkciók
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### 🧠 Kvíz (Feleletválasztós tesztek)
+- Interaktív kérdések válaszlehetőségekkel
+- **Single choice** (egy helyes válasz) és **Multiple choice** (több helyes válasz) kérdések
+- Azonnali visszajelzés a válaszokra
+- Magyarázatok a helyes válaszokhoz
+- Pontszám követés és eredmény megjelenítés
+- Progress bar a kvíz előrehaladásának mutatásához
+
+### 📚 Tananyag (Flashcard)
+- 3D flip animációval rendelkező kártyák
+- "Tudom" / "Nem tudom" gombok a tanulás követéséhez
+- Szűrési lehetőségek: Összes / Ismert / Ismeretlen kártyák
+- Statisztikák a tanulási eredményekről
+
+### 🎨 Modern UI/UX
+- Responsive design
+- Tailwind CSS stílusozás
+- Vertikális sidebar navigáció
+- Letisztult, felhasználóbarát felület
+
+## Telepítés és futtatás
+
+1. **Függőségek telepítése:**
+   ```bash
+   npm install
+   ```
+
+2. **Fejlesztői szerver indítása:**
+   ```bash
+   npm run dev
+   ```
+
+3. **Böngészőben megnyitás:**
+   ```
+   http://localhost:3000
+   ```
+
+## Adatok hozzáadása
+
+### Kvíz adatok
+A kvíz adatokat a `public/data/quizzes.json` fájlban találod. Formátum:
+
+```json
+[
+  {
+    "id": "quiz-1",
+    "title": "Kvíz címe",
+    "description": "Kvíz leírása",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Kérdés szövege",
+        "options": ["Válasz 1", "Válasz 2", "Válasz 3", "Válasz 4"],
+        "correctAnswer": 1,
+        "explanation": "Magyarázat a helyes válaszhoz"
+      },
+      {
+        "id": "q2",
+        "question": "Multiple choice kérdés",
+        "options": ["Válasz 1", "Válasz 2", "Válasz 3", "Válasz 4"],
+        "correctAnswer": [0, 2],
+        "type": "multiple",
+        "explanation": "Magyarázat a helyes válaszokhoz"
+      }
+    ]
+  }
+]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Kérdés típusok:**
+- **Single choice**: `"correctAnswer": 1` (egy szám)
+- **Multiple choice**: `"correctAnswer": [0, 2]` (tömb) és `"type": "multiple"`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Flashcard adatok
+A flashcard adatokat a `public/data/flashcards.json` fájlban találod. Formátum:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```json
+[
+  {
+    "id": "flashcard-1",
+    "title": "Tananyag címe",
+    "description": "Tananyag leírása",
+    "cards": [
+      {
+        "id": "card-1",
+        "front": "Kérdés / Fogalom",
+        "back": "Válasz / Magyarázat"
+      }
+    ]
+  }
+]
+```
 
-## Learn More
+## Projekt struktúra
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/
+│   ├── layout.tsx          # Fő layout
+│   ├── page.tsx            # Főoldal
+│   └── globals.css         # Globális stílusok
+├── components/
+│   ├── Sidebar.tsx         # Navigációs sidebar
+│   ├── QuizList.tsx        # Kvíz lista
+│   ├── FlashcardList.tsx   # Tananyag lista
+│   ├── Quiz.tsx            # Kvíz komponens
+│   └── Flashcard.tsx       # Flashcard komponens
+public/
+└── data/
+    ├── quizzes.json        # Kvíz adatok
+    └── flashcards.json     # Flashcard adatok
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technológiai stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Next.js 14** - React framework
+- **TypeScript** - Típusbiztonság
+- **Tailwind CSS** - Stílusozás
+- **React Hooks** - State management
 
-## Deploy on Vercel
+## Használat
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Kvíz használata:**
+   - Válaszd ki a "Kvíz" opciót a sidebar-ban
+   - Kattints egy kvízre a listából
+   - Válaszolj a kérdésekre
+   - Nézd meg az eredményedet a végén
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Flashcard használata:**
+   - Válaszd ki a "Tananyag" opciót a sidebar-ban
+   - Kattints egy tananyagra a listából
+   - Kattints a kártyára a megfordításhoz
+   - Jelöld meg, hogy tudod-e vagy sem
+   - Használd a szűrőket a tanulás optimalizálásához
+
+## Testreszabás
+
+A projekt könnyen testreszabható:
+- Új kvízek és tananyagok hozzáadása a JSON fájlokban
+- Stílusok módosítása a Tailwind CSS osztályokkal
+- Új funkciók hozzáadása a komponensekben
+
+## Jövőbeli fejlesztések
+
+- Felhasználói fiókok és progress mentés
+- További kvíz típusok (igaz/hamis, szöveges válasz)
+- Tanulási statisztikák és analytics
+- Offline támogatás
+- Mobilalkalmazás
