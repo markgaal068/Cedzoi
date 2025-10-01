@@ -31,10 +31,11 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (mounted) {
       localStorage.setItem('theme', theme)
+      const root = document.documentElement
       if (theme === 'dark') {
-        document.documentElement.classList.add('dark')
+        root.classList.add('dark')
       } else {
-        document.documentElement.classList.remove('dark')
+        root.classList.remove('dark')
       }
     }
   }, [theme, mounted])

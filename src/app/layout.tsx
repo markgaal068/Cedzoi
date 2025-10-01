@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="hu">
       <body className={inter.className}>
         <ThemeProvider>
-          <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors">
+          <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
             {children}
           </div>
         </ThemeProvider>
