@@ -66,6 +66,36 @@ export default function Sidebar({ selectedType, onTypeChange, onBackToList, show
           </button>
         </div>
       </nav>
+      
+      {/* Fejlesztői link */}
+      <div className="p-4 border-t border-gray-200">
+        <a
+          href="https://gaalmark.hu"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group flex items-center space-x-3 p-3 rounded-lg hover:bg-gray-50 transition-colors"
+        >
+          <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
+            <span className="text-white text-sm font-bold">GM</span>
+          </div>
+          <div className="min-w-0 flex-1">
+            <div className="font-medium text-sm text-gray-800 group-hover:text-purple-600 transition-colors">
+              Gaál Márk
+            </div>
+            <div className="text-xs text-gray-500 group-hover:text-purple-500 transition-colors">
+              gaalmark.hu
+            </div>
+          </div>
+          <svg 
+            className="w-4 h-4 text-gray-400 group-hover:text-purple-500 transition-colors" 
+            fill="none" 
+            stroke="currentColor" 
+            viewBox="0 0 24 24"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+          </svg>
+        </a>
+      </div>
     </div>
   )
 }
