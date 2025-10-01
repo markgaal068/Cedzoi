@@ -62,8 +62,8 @@ export default function FlashcardList({ onFlashcardSelect }: FlashcardListProps)
   return (
     <div>
       <div className="mb-4 sm:mb-6">
-        <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-2">Tananyagok</h2>
-        <p className="text-sm sm:text-base text-gray-600">Válassz ki egy tananyagot a flashcard tanuláshoz</p>
+        <h2 className="text-xl sm:text-2xl font-bold text-gray-800 dark:text-white mb-2">Tananyagok</h2>
+        <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">Válassz ki egy tananyagot a flashcard tanuláshoz</p>
       </div>
       
       <div className="grid gap-3 sm:gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
@@ -71,20 +71,20 @@ export default function FlashcardList({ onFlashcardSelect }: FlashcardListProps)
           <div
             key={set.id}
             onClick={() => onFlashcardSelect(set.id)}
-            className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer border border-gray-200 hover:border-green-300"
+            className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer border border-gray-200 dark:border-gray-700 hover:border-green-300 dark:hover:border-green-600"
           >
             <div className="p-4 sm:p-6">
               <div className="flex items-center justify-between mb-3">
                 <div className="w-8 h-8 sm:w-10 sm:h-10 bg-green-500 rounded-lg flex items-center justify-center flex-shrink-0">
                   <span className="text-white text-sm sm:text-base font-semibold">F</span>
                 </div>
-                <span className="text-xs sm:text-sm text-gray-500">{set.cardCount} kártya</span>
+                <span className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">{set.cardCount} kártya</span>
               </div>
               
-              <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-2 line-clamp-2">{set.title}</h3>
-              <p className="text-gray-600 text-xs sm:text-sm line-clamp-2">{set.description}</p>
+              <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-white mb-2 line-clamp-2">{set.title}</h3>
+              <p className="text-gray-600 dark:text-gray-300 text-xs sm:text-sm line-clamp-2">{set.description}</p>
               
-              <div className="mt-3 sm:mt-4 flex items-center text-green-600 text-xs sm:text-sm font-medium">
+              <div className="mt-3 sm:mt-4 flex items-center text-green-600 dark:text-green-400 text-xs sm:text-sm font-medium">
                 <span>Tanuljunk</span>
                 <svg className="w-3 h-3 sm:w-4 sm:h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
