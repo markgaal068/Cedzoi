@@ -1,80 +1,1053 @@
 [
   {
     "id": "quiz-1",
-    "title": "Matematika Alapok",
-    "description": "Alapvető matematikai műveletek és fogalmak",
+    "title": "Sporttáplálkozás Feleletválasztós",
+    "description": "Feleletválasztós kérdések",
     "questions": [
       {
         "id": "q1",
-        "question": "Mennyi 2 + 2?",
-        "options": ["3", "4", "5", "6"],
-        "correctAnswer": 1,
-        "explanation": "2 + 2 = 4"
+        "question": "A posztprandiális időszakban:",
+        "options": ["fokozódik a glükagontermelés", "fokozódik a glikoneogenezis", "intenzaív a zsírmobilizáció", "az inzulinelválasztás nő"],
+        "correctAnswer": 4,
+        "explanation": ""
       },
       {
         "id": "q2",
-        "question": "Mi a 3² értéke?",
-        "options": ["6", "9", "12", "15"],
-        "correctAnswer": 1,
-        "explanation": "3² = 3 × 3 = 9"
+        "question": "A táplálékfelvételt növeli:",
+        "options": ["noradrenalin", "NPY", "szerotonin", "leptin"],
+        "correctAnswer": 2,
+        "explanation": ""
       },
       {
         "id": "q3",
-        "question": "Mennyi 10 ÷ 2?",
-        "options": ["4", "5", "6", "8"],
+        "question": "Egyszeresen telítetlen zsírsav",
+        "options": ["olajsav (erukasav)", "linolsav", "eikoza-pentaénsav", "sztearinsav"],
         "correctAnswer": 1,
-        "explanation": "10 ÷ 2 = 5"
+        "explanation": ""
       },
       {
         "id": "q4",
-        "question": "Mi a 7 × 8 eredménye?",
-        "options": ["54", "56", "58", "60"],
-        "correctAnswer": 1,
-        "explanation": "7 × 8 = 56"
+        "question": "Gyors cukor:",
+        "options": ["inulin", "szacharóz", "amilopektin", "fruktóz"],
+        "correctAnswer": 2,
+        "explanation": ""
       },
       {
         "id": "q5",
-        "question": "Mennyi 15 - 7?",
-        "options": ["6", "7", "8", "9"],
-        "correctAnswer": 2,
-        "explanation": "15 - 7 = 8"
+        "question": "Élelmi rost:",
+        "options": ["hipoxantin", "biotin", "taurin", "cellobióz"],
+        "correctAnswer": 4,
+        "explanation": ""
       },
       {
         "id": "q6",
-        "question": "Melyik számok prímszámok?",
-        "options": ["2", "4", "7", "9"],
-        "correctAnswer": [0, 2],
-        "type": "multiple",
-        "explanation": "A 2 és a 7 prímszámok (csak 1-gyel és önmagukkal oszthatók), míg a 4 és a 9 összetett számok."
+        "question": "Nem telítetlen zsírsav:",
+        "options": ["olajsav", "linolsav", "eikoza-pentaénsav", "palmitinsav"],
+        "correctAnswer": 4,
+        "explanation": ""
+      },
+      {
+        "id": "q7",
+        "question": "Hasnyálmirigy termeli:",
+        "options": ["pepszin", "erepszin", "glükagon", "bombezin"],
+        "correctAnswer": 3,
+        "explanation": ""
+      },      {
+        "id": "q8",
+        "question": "Folsavra nem jellemző:",
+        "options": ["fontos a vérképzéshez", "javasolt bevitel: 1,2-1,4 mg/nap", "vízben oldódik", "fontos a velőcső záródáshoz"],
+        "correctAnswer": 2,
+        "explanation": ""
+      },
+      {
+        "id": "q9",
+        "question": "Esszenciális aminosav:",
+        "options": ["glicin", "aszparagin", "izoleucin", "prolin"],
+        "correctAnswer": 3,
+        "explanation": ""
+      },      {
+        "id": "q10",
+        "question": "Lassú cukor:",
+        "options": ["galaktóz", "szacharóz", "amilopektin", "cellulóz"],
+        "correctAnswer": 1,
+        "explanation": ""
+      },
+      {
+        "id": "q11",
+        "question": "B6 vitaminra nem jellemző:",
+        "options": ["fokozza a vérlemezkék termelődését", "részt vesz a fehérje anyagcserében", "csökkenti a hányingert", "javasolt bevitel 2,2mg/nap"],
+        "correctAnswer": 1,
+        "explanation": ""
+      },      {
+        "id": "q12",
+        "question": "Gyomorból felszívódásra kerül:",
+        "options": ["oligopeptidek", "glicerin", "glükóz", "alkohol"],
+        "correctAnswer": 4,
+        "explanation": ""
+      },
+      {
+        "id": "q13",
+        "question": "Esszenciális aminosav:",
+        "options": ["fenil-alanin", "prolin", "glicin", "ciszterin"],
+        "correctAnswer": 1,
+        "explanation": "fenil- alanin, leucin, izoleucin, lizin, metionin, triptofán, treonin, valin, hisztid és arginin)"
+      },      {
+        "id": "q14",
+        "question": "Alapanyagcserét nem befolyásolja:",
+        "options": ["izommunka", "vérnyomás", "táplálkozás", "életkor"],
+        "correctAnswer": 2,
+        "explanation": ""
+      },
+      {
+        "id": "q15",
+        "question": "A hasnyálmirigy termeli:",
+        "options": ["enterokináz", "pepszinogén", "tripszinogén", "erepszin"],
+        "correctAnswer": 3,
+        "explanation": ""
+      },      {
+        "id": "q16",
+        "question": "Posztprandiális szakaszban:",
+        "options": ["fokozódik a glükagontermelés", "fokozódik a glikoneogenezis", "intenzív a zsírmobilizáció", "inzulinelválasztás nő"],
+        "correctAnswer": 4,
+        "explanation": ""
+      },
+      {
+        "id": "q17",
+        "question": "Esszenciális aminosav:",
+        "options": ["Glutamin", "Prolin", "Glicin", "Lizin"],
+        "correctAnswer": 4,
+        "explanation": ""
+      },      {
+        "id": "q18",
+        "question": "Javasolt fehérjebevitel állóképességi sportolóknak:",
+        "options": ["0,8-1g/kg/nap", "2-2,5 g/kg/nap", "1,2-1,6 g/kg/nap", "1,8-2,1 g/kg/nap"],
+        "correctAnswer": 3,
+        "explanation": ""
+      },
+      {
+        "id": "q19",
+        "question": "Élelmi rost:",
+        "options": ["hipoxantin", "biotin", "taurin", "cellobióz"],
+        "correctAnswer": 4,
+        "explanation": ""
+      },      {
+        "id": "q20",
+        "question": "Egyszerű szénhidrátból ajánlott mennyiség:",
+        "options": ["10 E%", "20 E%", "30 E%", "40 E%"],
+        "correctAnswer": 1,
+        "explanation": ""
+      },
+      {
+        "id": "q21",
+        "question": "Nem előanyaga a koleszterin:",
+        "options": ["D-vitamin", "Epesavak", "Bombezin", "Tesztoszteron"],
+        "correctAnswer": 3,
+        "explanation": ""
+      },      {
+        "id": "q22",
+        "question": "A magnézium beviteli ajánlása:",
+        "options": ["0,1-0,3 g/nap", "0,4-1 mg/nap", "0,4-1 g/nap", "14-20 mg/nap"],
+        "correctAnswer": 3,
+        "explanation": ""
+      },
+      {
+        "id": "q23",
+        "question": "B12-vitaminra nem jellemző:",
+        "options": ["bélbaktériumok is előállítják", "részt vesz a vérképzésben", "állati eredetű termékekből jutunk hozzá", "javasolt bevitel 1-2 mg/nap"],
+        "correctAnswer": 4,
+        "explanation": ""
+      },      {
+        "id": "q24",
+        "question": "Nem jellemző az anorexiás begetekre:",
+        "options": ["hiperaktivitás", "torz testkép", "magas vérnyomás", "kóros soványság"],
+        "correctAnswer": 3,
+        "explanation": ""
+      },
+      {
+        "id": "q25",
+        "question": "Tápláltsági állapot becslésére alkalmas:",
+        "options": ["az elfogyasztott táplálékok mennyisége", "relatív testzsír mennyisége", "felvett energia mennyisége", "testtömeg mérése"],
+        "correctAnswer": 2,
+        "explanation": ""
       }
     ]
   },
   {
     "id": "quiz-2",
-    "title": "Magyar Irodalom",
-    "description": "Klasszikus magyar irodalmi művek és szerzők",
+    "title": "Sporttáplálkozás Igaz-Hamis",
+    "description": "Igaz / Hamis kérdések",
     "questions": [
-      {
-        "id": "q1",
-        "question": "Ki írta a 'Toldi' című művet?",
-        "options": ["Arany János", "Petőfi Sándor", "Vörösmarty Mihály", "Jókai Mór"],
-        "correctAnswer": 0,
-        "explanation": "Arany János írta a Toldi című epikus költeményt 1847-ben."
-      },
-      {
-        "id": "q2",
-        "question": "Melyik művet írta Petőfi Sándor?",
-        "options": ["Az ember tragédiája", "A kőszívű ember fiai", "János vitéz", "A rab"],
-        "correctAnswer": 2,
-        "explanation": "Petőfi Sándor írta a János vitéz című meseverset 1844-ben."
-      },
-      {
-        "id": "q3",
-        "question": "Ki volt a 'Bánk bán' szerzője?",
-        "options": ["Vörösmarty Mihály", "Katona József", "Madách Imre", "Mikszáth Kálmán"],
-        "correctAnswer": 1,
-        "explanation": "Katona József írta a Bánk bán című drámát 1819-ben."
-      }
+  {
+    "id": "q1",
+    "question": "Mennél több valakinek a zsírszövete, annál több a leptin termelése.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q2",
+    "question": "A laktóz egy glükózból és egy fruktózból épül fel.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "q3",
+    "question": "Naponta átlagosan 1000 mg koleszterinre van szüksége szervezetünknek.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q4",
+    "question": "A napi javasolt egyszerű szénhidrát fogyasztás az energiaigény közel felét fedezi.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "q5",
+    "question": "A fehérjék bontását a gyomornyálkahártya fedősejtjei által termelt pepszin kezdi meg.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q6",
+    "question": "A növényi eredetű zsírok mindig telítetlen zsírsavakat tartalmaznak.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "q7",
+    "question": "A bélbaktériumok fontos prebiotikumok.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q8",
+    "question": "Kwashiorkor csak Ázsiában figyelhető meg, mert ott gyakran a szója az egyetlen fehérjeforrás.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "q9",
+    "question": "A prosztaglandin előanyagai a linol és a linolén.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q10",
+    "question": "A posztprandiális szakaszban a glükolízis háttérbe szorul, mert a szénhidrát raktárak feltöltése ilyenkor történik.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q11",
+    "question": "Az alkoholizmus sokszor vitaminhiánnyal jár.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q12",
+    "question": "A májban termelődő emésztőenzim, az epe emulgeálja a zsírokat.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q13",
+    "question": "Az oligoszacharidok fogyasztása élettanilag kedvezőbb, mert kevésbé és lassabban emelik a vércukorszintet.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q14",
+    "question": "A hipertóniás hiperhidráció másik neve vízmérgezés.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q15",
+    "question": "A bulímiások hiperaktívak.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q16",
+    "question": "A kopási kvóta 30–40 g/nap fehérje, ezért egy 80 kg testtömegű embernek ennek a kétszerese a megfelelő fehérjebevitel.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q17",
+    "question": "Vashiányos vérszegénység gyakrabban fordul elő vegetáriánus táplálkozásnál.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q18",
+    "question": "Zsírfogyasztásunk ne haladja meg a teljes energiabevitel 15%-át.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q19",
+    "question": "A króm zsírmobilizáló hatású nyomelem és kedvezően befolyásolja az inzulinszekréciót is.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q20",
+    "question": "Az állati eredetű zsírok mindig telített zsírsavakat tartalmaznak.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q21",
+    "question": "A túlzott fehérjebevitel a bélhámsejtekben bazális protein-lerakódással jár.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q22",
+    "question": "A posztabszorptív szakaszban a glikogenezis háttérbe szorul, mert a szénhidrát raktárak feltöltése ilyenkor történik.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q23",
+    "question": "Az MCT javasolt epebetegeknek.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q24",
+    "question": "A glikémiás index függ az elfogyasztott élelmiszer ásványi anyag tartalmától.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q25",
+    "question": "A HDL magasabb arányú fogyasztása ajánlott, mert a HDL segít eltávolítani az erek falára lerakódó vérzsírokat.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q26",
+    "question": "Az éhségközpont a talamusz laterális magcsoportjaiban található.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q27",
+    "question": "A szacharóz egy glükózból és egy fruktózból épül fel.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q28",
+    "question": "A szívizomsejtek, a neuronok és a vörösvértestek obligát glükózdependensek.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q29",
+    "question": "Az antioxidánsok gátolják az oxidációs folyamatokat, mert gyökfogók.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q30",
+    "question": "A bélben termelődő intrinsic faktor segíti a B12 vitamin felszívódását.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q31",
+    "question": "A glikogénraktárak reszintézise megfelelő szénhidrátbevitellel a terhelést követő egy órában a leggyorsabb.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q32",
+    "question": "A D3-vitamint előanyagából a bőr termeli napfény hatására, ezért a túlzott napozás túladagolási tünetekkel jár.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q33",
+    "question": "A hipotóniás hiperhidráció másik neve a vízmérgezés.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q34",
+    "question": "A posztpandriális szakaszban a glikogenolízis háttérbe szorul.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q35",
+    "question": "A neuronok és a vörösvértestek obligát glükózdependens sejtek.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q36",
+    "question": "A testtömeg-index a tápláltsági állapot legpontosabb becslése.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q37",
+    "question": "A vas felszívódását segíti a folsav és a C-vitamin.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q38",
+    "question": "A folsav felszívódását segíti a vas és a C-vitamin.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q39",
+    "question": "A zsírok bontását a gyomornyálkahártya sejtjei által termelt lipáz kezdi.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q40",
+    "question": "Naponta átlagosan 20 gramm rostra van szüksége az emberi szervezetnek.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },{
+    "id": "q41",
+    "question": "A frukto-oligoszacharidok a vastagbélben élő bélbaktériumok fontos tápláléka.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q42",
+    "question": "A szívizomsejtek, a neuronok és a vörösvértestek obligát glükózdependensei.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q43",
+    "question": "Naponta átlagosan 30 gramm élelmi rostra van szüksége szervezetünknek.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q44",
+    "question": "A folsav hiánya gyakran elfedi a magas B12-bevitelt.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q45",
+    "question": "A frukto-oligoszacharidok fontos természetes cukorpótlók.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q46",
+    "question": "A hipertóniás dehidratáció leggyakrabban a tápcsatorna fertőzései miatt alakul ki.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q47",
+    "question": "A megfelelő szénhidrátbevitel az izomfehérjék védelme miatt is fontos.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q48",
+    "question": "A bélben termelődő inhibiting faktor segíti a B12 vitamin felszívódását.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q49",
+    "question": "Fehérje fogyasztásunk ne haladja meg a teljes energiabevitel 25%-át.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q50",
+    "question": "A posztprandiális szakaszban a glikogenolízis háttérbe szorul, mert ekkor történik a szénhidrát-raktárak feltöltése.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q51",
+    "question": "A komplex táplálékkiegészítők kalorigén tápanyagot is tartalmaznak.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q52",
+    "question": "A túlzott fehérjebevitel a gyomornyálkahártyában basalis protein-lerakódással jár.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q53",
+    "question": "A linol és a linolén a prosztaglandin előanyaga.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q54",
+    "question": "A zsírraktárakban normál tápláltság mellett 7000–10000 kcal energia tárolódik.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q55",
+    "question": "A frukto-oligoszacharidok fontos prebiotikumok.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q56",
+    "question": "A glikogenezis a posztabszorptív szakaszban dominál.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q57",
+    "question": "A vázizomzat védelmében fontos a BCAA csoport.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q58",
+    "question": "A májban termelődő epe enzimatikusan bontja a zsírokat.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q59",
+    "question": "A B12-vitamin hiányát gyakran elfedi a magas folsavbevitel.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q60",
+    "question": "A napi javasolt összetett szénhidrátfogyasztás fedezze az energiaigény közel felét.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q61",
+    "question": "Magas fehérjetartalmú étrend esetén fokozott a B5-vitamin szükséglet.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q62",
+    "question": "A napi javasolt egyszerű szénhidrát fogyasztás az energiaigény közel tizedét fedezze.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q63",
+    "question": "A B12-vitamin felszívódását segíti az intrinsic faktor.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q64",
+    "question": "Naponta átlagosan 50 gram élelmi rostra van szüksége szervezetünknek.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q65",
+    "question": "A gasztrointesztinális hormonok az összes emésztőnedv termelését szabályozzák.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q66",
+    "question": "A posztaglandin a linol és a linolén előanyaga.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q67",
+    "question": "A magnézium beépülését a szívizomba segíti a B6-vitamin.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q68",
+    "question": "A B-6 vitamin beépülését a szívizomba segíti a magnézium.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q69",
+    "question": "A glükóz és az aminosavak aktív transzporttal szívódnak fel.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q70",
+    "question": "Az éhségközpont nem a hipotalamuszban, hanem a talamuszban található.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q71",
+    "question": "A nyálmirigyekben termelődő amiláz megkezdi a keményítő bontását.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q72",
+    "question": "A triptofánhiány csökkenti a teltségérzetet, mert szerotonin előanyag.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q73",
+    "question": "A BCAA aminosavak felépítése és funkciója is hasonló.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q74",
+    "question": "A növényi eredetű zsírok mindig telítetlenek.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q75",
+    "question": "A glikogénraktárak reszintézise megfelelő szénhidrátbevitellel a terhelést követő egy órában a leggyorsabb.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q76",
+    "question": "A túlzott fehérjebevitel a bélhámsejtekben apikális proteinlerakódással jár.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q77",
+    "question": "A frukto-oligoszacharidok a vastagbélben élő bélbaktériumok fontos tápláléka.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q78",
+    "question": "A májban termelődő epe enzimeket tartalmaz, amelyek lebontják a lipideket.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+
+  {
+    "id": "q79",
+    "question": "A linol és a linolén a prosztaglandin előanyaga.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "q80",
+    "question": "Az intenzív sporttevékenység sokszor hipotóniás dehidratációt okoz.",
+    "options": ["Igaz", "Hamis"],
+    "correctAnswer": 2,
+    "explanation": ""
+  }, {
+  "id": "q81",
+  "question": "A B12-vitamin hiányát gyakran elfedi a magas folsav-bevitel.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 1,
+  "explanation": ""
+},
+{
+  "id": "q82",
+  "question": "A posztprandiális szakaszban a glükolízis háttérbe szorul, mert a szénhidrát raktárak feltöltése ilyenkor történik.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+},
+{
+  "id": "q83",
+  "question": "A glikogénraktárak reszintézise megfelelő szénhidrátbevitellel a terhelést követő egy órában a leggyorsabb.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 1,
+  "explanation": ""
+},
+{
+  "id": "q84",
+  "question": "A túlzott fehérjebevitel a gyomornyálkahártyában basalis protein-lerakódással jár.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+},
+{
+  "id": "q85",
+  "question": "A linol és a linolén a prosztaglandin előanyaga.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 1,
+  "explanation": ""
+},
+{
+  "id": "q86",
+  "question": "A növényi eredetű zsírok mindig telítetlen zsírsavakat tartalmaznak.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+},
+{
+  "id": "q87",
+  "question": "A neuronok és a vörösvértestek obligát glükózdependens sejtek.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 1,
+  "explanation": ""
+},
+{
+  "id": "q88",
+  "question": "A frukto-oligoszacharidok fontos természetes cukorpótlók.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 1,
+  "explanation": ""
+},
+{
+  "id": "q89",
+  "question": "A posztabszorptív szakaszban a glikogenezis háttérbe szorul, mert a szénhidrát raktárak feltöltése ilyenkor történik.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+},
+{
+  "id": "q90",
+  "question": "A BCAA aminosavak felépítése és funkciója is hasonló.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 1,
+  "explanation": ""
+},
+{
+  "id": "q91",
+  "question": "A májban termelődő emésztőenzim, az epe emulgeálja a zsírokat.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+},
+{
+  "id": "q92",
+  "question": "Naponta átlagosan 20 gramm rostra van szüksége az emberi szervezetnek.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+},
+{
+  "id": "q93",
+  "question": "A hipotóniás dehidráció legtöbbször sportolás alatt az izzadás következményeként alakul ki.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+},
+{
+  "id": "q94",
+  "question": "A vas felszívódását segíti a folsav és a C-vitamin.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 1,
+  "explanation": ""
+},
+{
+  "id": "q95",
+  "question": "A napi javasolt egyszerű szénhidrát fogyasztás az energiaigény közel felét fedezi.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+},
+{
+  "id": "q96",
+  "question": "A linol és a linolén a posztglandin előanyaga.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 1,
+  "explanation": ""
+},
+{
+  "id": "q97",
+  "question": "A glükóz és az aminosavak aktív transzporttal szívódnak fel.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 1,
+  "explanation": ""
+},
+{
+  "id": "q98",
+  "question": "A szívizomsejtek, a neuronok és a vörösvértestek obligát glükózdependensek.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+},
+{
+  "id": "q99",
+  "question": "A napfény hatására képződő D3-vitamin túladagolható intenzív napozással.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+},
+{
+  "id": "q100",
+  "question": "A bélben termelődő intrinsic faktor segíti a B12 vitamin felszívódását.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+}, {
+  "id": "q101",
+  "question": "A frukto-oligoszacharidok fontos prebiotikumok.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 1,
+  "explanation": ""
+},
+{
+  "id": "q102",
+  "question": "A napi javasolt egyszerű szénhidrát fogyasztás az energiaigény közel tizedét fedezze.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+},
+{
+  "id": "q103",
+  "question": "A megfelelő szénhidrátbevitel az izomfehérjék védelme miatt is fontos.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 1,
+  "explanation": ""
+},
+{
+  "id": "q104",
+  "question": "A bélben termelődő inhibiting faktor segíti a B12 vitamin felszívódását.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+},
+{
+  "id": "q105",
+  "question": "A zsírraktárakban normál tápláltság mellett 7000–10000 kcal energia tárolódik.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+},
+{
+  "id": "q106",
+  "question": "A szacharóz egy glükózból és egy fruktózból épül fel.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 1,
+  "explanation": ""
+},
+{
+  "id": "q107",
+  "question": "Az állati eredetű zsírok mindig telített zsírsavakat tartalmaznak.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+},
+{
+  "id": "q108",
+  "question": "A folsav felszívódását segíti a vas és a C-vitamin.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+},
+{
+  "id": "q109",
+  "question": "Magas fehérjetartalmú étrend esetén fokozott a B5-vitamin szükséglet.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 1,
+  "explanation": ""
+},
+{
+  "id": "q110",
+  "question": "A bélbaktériumok fontos prebiotikumok.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+},
+{
+  "id": "q111",
+  "question": "A rostban gazdag étrend lassabban emeli a vércukorszintet.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 1,
+  "explanation": ""
+},
+{
+  "id": "q112",
+  "question": "A BCAA csoport fontos a vázizomzat védelmében.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 1,
+  "explanation": ""
+},
+{
+  "id": "q113",
+  "question": "Naponta átlagosan 50 g élelmi rostra van szüksége szervezetünknek.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+},
+{
+  "id": "q114",
+  "question": "Az antioxidánsok gyökfogók, ezért gátolják az oxidációs folyamatokat.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 1,
+  "explanation": ""
+},
+{
+  "id": "q115",
+  "question": "A glikémiás index függ az élelmiszer rost-, ásványi só- és fehérjetartalmától.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+},
+{
+  "id": "q116",
+  "question": "A triptofánhiány csökkenti a teltségérzetet.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+},
+{
+  "id": "q117",
+  "question": "A fitoösztrogének javítják a gyulladásos folyamatok leküzdését a szervezetben.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 1,
+  "explanation": ""
+},
+{
+  "id": "q118",
+  "question": "A napi javasolt összetett szénhidrát fogyasztás fedezze az energiaigény közel felét.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 1,
+  "explanation": ""
+},
+{
+  "id": "q119",
+  "question": "A króm zsírmobilizáló hatású nyomelem és kedvezően befolyásolja az inzulinszekréciót.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 1,
+  "explanation": ""
+},
+{
+  "id": "q120",
+  "question": "Kwashiorkor csak Ázsiában figyelhető meg, mert ott gyakran a szója az egyetlen fehérjeforrás.",
+  "options": ["Igaz", "Hamis"],
+  "correctAnswer": 2,
+  "explanation": ""
+}
     ]
   },
   {
