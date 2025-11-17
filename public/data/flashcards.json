@@ -1,61 +1,111 @@
 [
   {
-    "id": "flashcard-1",
-    "title": "Angol Szókincs",
-    "description": "Alapvető angol szavak és kifejezések",
-    "cards": [
-      {
-        "id": "card-1",
-        "front": "Hello",
-        "back": "Szia / Helló"
-      },
-      {
-        "id": "card-2",
-        "front": "Goodbye",
-        "back": "Viszlát"
-      },
-      {
-        "id": "card-3",
-        "front": "Thank you",
-        "back": "Köszönöm"
-      },
-      {
-        "id": "card-4",
-        "front": "Please",
-        "back": "Kérem / Legyen szíves"
-      },
-      {
-        "id": "card-5",
-        "front": "Sorry",
-        "back": "Elnézést / Sajnálom"
-      },
-      {
-        "id": "card-6",
-        "front": "Yes",
-        "back": "Igen"
-      },
-      {
-        "id": "card-7",
-        "front": "No",
-        "back": "Nem"
-      },
-      {
-        "id": "card-8",
-        "front": "Water",
-        "back": "Víz"
-      },
-      {
-        "id": "card-9",
-        "front": "Food",
-        "back": "Étel"
-      },
-      {
-        "id": "card-10",
-        "front": "House",
-        "back": "Ház"
-      }
-    ]
-  },
+  "id": "flashcard-1",
+  "title": "Sporttáplálkozás",
+  "description": "Fogalmak magyarázata",
+  "cards": [
+    {
+      "id": "card-1",
+      "front": "Fehérjebontó enzimek",
+      "back": "A fehérjebontó enzimek között, annak alapján teszünk különbséget, hogy teljesfehérjemolekulákra hatnak-e (pepszin, kateapszin, tripszin, kimotripszin), vagy a fehérjékkülönböző molekulatömegű bomlástermékeit bontják-e tovább (poli-, tri-, dipeptidázok,karboxi- és aminopeptidázak stb.). A fehérje emésztés végtermékei az aminosavak. Elvilegaz erepszin is fehérjebontó."
+    },
+    {
+      "id": "card-2",
+      "front": "Szuperkompenzáció",
+      "back": "Glikogénkészletek túltöltése a sporttáplálkozásban a cél.Hultman 1974‐ben elterjedt trükk‐diétája:- Verseny előtt alacsony szénhidrát‐, magas zsír‐ és fehérjebevitel, majd az edzésterhelés csökkentése mellett a szénhidrátbevitel fokozatos növelése → glikogén szuperkompenzáció- Manapság már nem alkalmazzák- Okai:  - túlzott gyengeség a felkészülési időszakban veszélyezteti az eredményes edzést  - esetenként hasmenést okozSportolásban fordul elő, a glikogénkészletek túltöltése a cél. Hutman nevéhez fűződik, 1974-ben terjedt el ez a fajta „diéta”. Lényege: verseny előtt magas zsír, fehérje bevitel és alacsony szénhidrát. Edzésintenzitás csökkenése mellett a szénhidrát fogyasztás fokozatos növelése"
+    },
+    {
+      "id": "card-3",
+      "front": "B1-vitamin",
+      "back": "- Tiamin- vízben oldódó;- hiány: Beriberi betegség: ín és ir. gyulladás, fogyás, izomgyengeség, szénhidrát bontás zavara- marginális vitaminhiány jellemző: Magyarország 60%-a nem visz be eleget- előfordulás: cereáliák héja, hús, hal, élesztő- felnőtt: 1-1,5 mg- sportoló: 4-8 mg- alkohol gátolja a B1-vitamin felszívódását"
+    },
+    {
+      "id": "card-4",
+      "front": "Koleszterin",
+      "back": "Fehérje-zsír kombinációk:- HDL: „jó koleszterin” — nem tapad le az érfalra, sőt a letapadtakat is eltávolítja- LDL: „rossz koleszterin” — kitapad az érfalra- Az LDL-HDL arány vizsgálata fontos- Magas összkoleszterin → koleszterinbevitel csökkentése szükséges- Előfordulás nagyobb, ha a családban is jelen van- Magas koleszterintartalmú: velő, máj (pl. libamáj), húsok, tojás- 300-350 mg/nap ajánlott bevitelKiinduló anyaga a szteroidoknak, szintézisének helye a máj.Értékek: 4,5 normál; 6-tól diéta szükséges; 7-től gyógyszer."
+    },
+    {
+      "id": "card-5",
+      "front": "Kalcium",
+      "back": "- 99% a csontokban van- A vér Ca-szintjét a mellékpajzsmirigy szabályozza- Szerepe: izom- és idegingerlékenység, véralvadás- Hiány: izomgörcs, osteoporosis- Napi szükséglet: 800-1000 mg- Sportolóknak: 1-2,5 g- Előfordulás: sajt, tojás, túró, káposzta, zöldborsó- Felszívódását a D-vitamin segítiKalcium-foszfor arányt a vese szabályozza."
+    },
+    {
+      "id": "card-6",
+      "front": "Vízben oldódó rostok",
+      "back": "(pl. pektin, gumiarábikum, zab, inulin, oligofruktóz stb.)Zselésítő tulajdonság → táplálékok megkötése, emésztés lassítása, hatékonyabb felszívódás.Csökkentik a koleszterinszintet és a vércukorszint hirtelen emelkedését.Megkötik a baktériumok toxinjait → gyorsabb gyógyulás fertőzések, hasmenés esetén."
+    },
+    {
+      "id": "card-7",
+      "front": "Vízben nem oldódó rostok",
+      "back": "(pl. cellulóz, szója-poliszacharid stb.)Vizet kötnek, de nem oldódnak → megduzzadnak, javítják a széklet továbbjutását.Jóllakottságérzet, csökkent elhízásveszély."
+    },
+    {
+      "id": "card-8",
+      "front": "Rostokban gazdag élelmiszerek",
+      "back": "gabonakorpa, gabonapelyhek, müzli, hamlet, abonett, korpás kenyérszáraz hüvelyesek (bab, lencse)olajos magvak (dió, mogyoró, napraforgó, mák)zöldségek (borsó, kukorica, spenót, zeller)gyümölcsök (szilva, szőlő, meggy, alma, barack, eper)A húsok, tojás, tejtermékek nem tartalmaznak rostot."
+    },
+    {
+      "id": "card-9",
+      "front": "Élelmi rost",
+      "back": "Növényi eredetű szénhidrátok, amelyek nem emészthetők meg → a vastagbélbe jutnak.Jótékony hatások: jobb vízmegkötés, jobb felszívódás, jobb bélműködés, koleszterincsökkentés.Rosthiány: székrekedés, elhízás, cukorbetegség, vastagbélrák.Max napi bevitel sportolóknak: 45 g."
+    },
+    {
+      "id": "card-10",
+      "front": "Glikémiás index",
+      "back": "A glükózhoz viszonyított vércukorszint-emelő hatás (1-100).Magas: 70-100, Közepes: 55-69, Alacsony: 0-55.Minél rostosabb/zsírosabb/sósabb → annál alacsonyabb.Minél finomítottabb/érettebb → annál magasabb.Sport előtt/után: magas GI ajánlott, egyébként alacsony-közepes."
+    },
+    {
+      "id": "card-11",
+      "front": "Alapanyagcsere",
+      "back": "Az alapvető életfunkciók fenntartásához szükséges energia nyugalomban.Befolyásolja: nem, életkor, edzettség, egészségi állapot, klíma.Átlag: férfi 1600-1700 kcal/nap, nő 1300-1400 kcal/nap.Feltételek: 12-14 óra éhezés, fekvés, semleges hőmérséklet, izgalommentes állapot."
+    },
+    {
+      "id": "card-12",
+      "front": "D-vitamin",
+      "back": "Hiánya: angolkór.Segíti a kalcium felszívódását és beépülését.Források: halmájolaj, tojássárgája, dúsított margarinok, vaj, tej, napfény.Túladagolás: D-hypervitaminózis → csonttörékenység, Ca-lerakódás a vesében és erekben.Szükséglet: 10 mikrogramm/nap; sportolóknak 5-10 mikrogramm."
+    },
+    {
+      "id": "card-13",
+      "front": "Hipotóniás hiperhidráció",
+      "back": "Víz vagy elektrolitmentes oldatok túladagolása (vízmérgezés).Nagy folyadékvesztés után csak csapvíz bevitele → vér hígul."
+    },
+    {
+      "id": "card-14",
+      "front": "Vas",
+      "back": "Előfordulás: máj, osztriga, marhahús, hal.Napi szükséglet: felnőtt 10-30 mg, sportoló 18-32 mg.Hiány: vérszegénység, fáradtság, teljesítménycsökkenés.Szerepe: hemoglobin, mioglobin, citokrómok képzése, immunerősítés."
+    },
+    {
+      "id": "card-15",
+      "front": "Fehérje-zsír kombinációk",
+      "back": "LDL: kis sűrűségű lipoprotein, magas koleszterintartalom.HDL: nagy sűrűségű lipoprotein, a felesleges koleszterint visszaszállítja a májba."
+    },
+    {
+      "id": "card-16",
+      "front": "A-vitamin (retinol)",
+      "back": "- zsírban oldódó- farkasvakság- bőr és nyálkahártya védelmező- jó antioxidáns- hiány: csontosodási zavar, száraz bőr- többlet: hajhullás, hámlás- előfordulás: máj, vaj, répa, sütőtök, dinnye- előanyaga: karotin- szükséglet: 1 mg, sportolóknak 2-5 mg"
+    },
+    {
+      "id": "card-17",
+      "front": "Leptin",
+      "back": "- zsírsejtekben termelődik- szerepe: zsíranyagcsere, étvágy és jóllakottság szabályozása- minél kevesebb a zsírszövet → annál kevesebb leptin a vérben"
+    },
+    {
+      "id": "card-18",
+      "front": "Anorexia",
+      "back": "Pszichés eredetű táplálkozási zavar, étvágy elvesztése, testsúlycsökkentés kényszeres vágya."
+    },
+    {
+      "id": "card-19",
+      "front": "Komplettálás",
+      "back": "Növényi eredetű fehérjeforrások tudatos összeválogatása."
+    },
+    {
+      "id": "card-20",
+      "front": "Posztprandiális fázis",
+      "back": "Étkezés utáni szakasz: vércukorszint nő, inzulinszint nő, glikolízis nő, szabad zsírsavak/aminosavak csökkennek.Inzulin kb. 70× több, mint glukagon."
+    }
+  ]
+},
   {
     "id": "flashcard-2",
     "title": "Programozás Alapok",

@@ -223,7 +223,7 @@
     "id": "q7",
     "question": "A bélbaktériumok fontos prebiotikumok.",
     "options": ["Igaz", "Hamis"],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": ""
   },
   {
@@ -933,7 +933,7 @@
   "id": "q104",
   "question": "A bélben termelődő inhibiting faktor segíti a B12 vitamin felszívódását.",
   "options": ["Igaz", "Hamis"],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": ""
 },
 {
@@ -973,76 +973,69 @@
 },
 {
   "id": "q110",
-  "question": "A bélbaktériumok fontos prebiotikumok.",
-  "options": ["Igaz", "Hamis"],
-  "correctAnswer": 1,
-  "explanation": ""
-},
-{
-  "id": "q111",
   "question": "A rostban gazdag étrend lassabban emeli a vércukorszintet.",
   "options": ["Igaz", "Hamis"],
   "correctAnswer": 0,
   "explanation": ""
 },
 {
-  "id": "q112",
+  "id": "q111",
   "question": "A BCAA csoport fontos a vázizomzat védelmében.",
   "options": ["Igaz", "Hamis"],
   "correctAnswer": 0,
   "explanation": ""
 },
 {
-  "id": "q113",
+  "id": "q112",
   "question": "Naponta átlagosan 50 g élelmi rostra van szüksége szervezetünknek.",
   "options": ["Igaz", "Hamis"],
   "correctAnswer": 1,
   "explanation": ""
 },
 {
-  "id": "q114",
+  "id": "q113",
   "question": "Az antioxidánsok gyökfogók, ezért gátolják az oxidációs folyamatokat.",
   "options": ["Igaz", "Hamis"],
   "correctAnswer": 0,
   "explanation": ""
 },
 {
-  "id": "q115",
+  "id": "q114",
   "question": "A glikémiás index függ az élelmiszer rost-, ásványi só- és fehérjetartalmától.",
   "options": ["Igaz", "Hamis"],
   "correctAnswer": 1,
   "explanation": ""
 },
 {
-  "id": "q116",
+  "id": "q115",
   "question": "A triptofánhiány csökkenti a teltségérzetet.",
   "options": ["Igaz", "Hamis"],
   "correctAnswer": 1,
   "explanation": ""
 },
 {
-  "id": "q117",
+  "id": "q116",
   "question": "A fitoösztrogének javítják a gyulladásos folyamatok leküzdését a szervezetben.",
   "options": ["Igaz", "Hamis"],
   "correctAnswer": 1,
   "explanation": ""
 },
 {
-  "id": "q118",
+  "id": "q117",
   "question": "A napi javasolt összetett szénhidrát fogyasztás fedezze az energiaigény közel felét.",
   "options": ["Igaz", "Hamis"],
   "correctAnswer": 1,
   "explanation": ""
 },
 {
-  "id": "q119",
+  "id": "q118",
   "question": "A króm zsírmobilizáló hatású nyomelem és kedvezően befolyásolja az inzulinszekréciót.",
   "options": ["Igaz", "Hamis"],
   "correctAnswer": 1,
   "explanation": ""
 },
 {
-  "id": "q120",
+  "id": "q119",
   "question": "Kwashiorkor csak Ázsiában figyelhető meg, mert ott gyakran a szója az egyetlen fehérjeforrás.",
   "options": ["Igaz", "Hamis"],
   "correctAnswer": 2,
