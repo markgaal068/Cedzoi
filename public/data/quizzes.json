@@ -1042,41 +1042,5 @@
   "explanation": ""
 }
     ]
-  },
-  {
-    "id": "quiz-3",
-    "title": "Történelem",
-    "description": "Magyar történelem fontosabb eseményei",
-    "questions": [
-      {
-        "id": "q1",
-        "question": "Mikor volt a honfoglalás?",
-        "options": ["895", "896", "897", "898"],
-        "correctAnswer": 1,
-        "explanation": "A honfoglalás 896-ban történt, amikor a magyar törzsek Árpád vezetésével letelepedtek a Kárpát-medencében."
-      },
-      {
-        "id": "q2",
-        "question": "Ki volt az első magyar király?",
-        "options": ["Árpád", "István", "László", "Kálmán"],
-        "correctAnswer": 1,
-        "explanation": "I. István volt az első magyar király, akit 1000-ben koronáztak meg."
-      },
-      {
-        "id": "q3",
-        "question": "Mikor volt a mohácsi csata?",
-        "options": ["1525", "1526", "1527", "1528"],
-        "correctAnswer": 1,
-        "explanation": "A mohácsi csata 1526. augusztus 29-én zajlott le, ahol a magyar sereg vereséget szenvedett a törököktől."
-      },
-      {
-        "id": "q4",
-        "question": "Melyik események a magyar történelem fontosabb mérföldkövei?",
-        "options": ["Honfoglalás (896)", "Mohácsi csata (1526)", "1848-as forradalom", "Trianoni béke (1920)"],
-        "correctAnswer": [0, 1, 2, 3],
-        "type": "multiple",
-        "explanation": "Mind a négy esemény fontos mérföldkő a magyar történelemben."
-      }
-    ]
   }
 ]
