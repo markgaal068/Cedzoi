@@ -105,5 +105,2150 @@
       "back": "Étkezés utáni szakasz: vércukorszint nő, inzulinszint nő, glikolízis nő, szabad zsírsavak/aminosavak csökkennek.Inzulin kb. 70× több, mint glukagon."
     }
   ]
-}
+},
+{
+    "id": "flashcard-2",
+    "title": "Irányításelmélet vizsga 6. kérdések",
+    "description": "Igaz/Hamis állítások",
+    "cards": [
+      {
+        "id": "card-1",
+        "front": "Egy rendszer leírására több állapottér-modell is alkalmas.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-2",
+        "front": "Egy rendszer leírására csak egy konkrét állapottér-modell írható fel.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-3",
+        "front": "Egy rendszer leírására több átviteli függvény is alkalmas.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-4",
+        "front": "Egy rendszer leírására csak egy konkrét átviteli függvény írható fel.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-5",
+        "front": "Egy rendszer leírására több impulzusválasz is alkalmas.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-6",
+        "front": "Egy rendszer leírására csak egy konkrét impulzusválasz írható fel.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-7",
+        "front": "Az állapottranszformáció a rendszer bemenet-kimenet kapcsolatát nem változtatja meg.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-8",
+        "front": "Az állapottranszformáció a rendszer bemenet-kimenet kapcsolatát megváltoztatja.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-9",
+        "front": "Az impulzusválasz invariáns az állapottranszformációra.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-10",
+        "front": "Az átviteli függvény invariáns az állapottranszformációra.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-11",
+        "front": "Az impulzusválasz invariáns az állapottranszformációra, de az átviteli függvény nem.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-12",
+        "front": "Az átviteli függvény invariáns az állapottranszformációra, de az impulzusválasz nem.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-13",
+        "front": "SISO-rendszer esetén az állapot-visszacsatolás eredményeképp létrejövő irányítójel egy skalár.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-14",
+        "front": "MIMO-rendszer esetén az állapot-visszacsatolás eredményeképp létrejövő irányítójel egy skalár.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-15",
+        "front": "SISO-rendszer esetén az állapot-visszacsatolás eredményeképp létrejövő irányítójel egy vektor.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-16",
+        "front": "MIMO-rendszer esetén az állapot-visszacsatolás eredményeképp létrejövő irányítójel egy vektor.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-17",
+        "front": "SISO-rendszer esetén az állapot-visszacsatolás eredményeképp létrejövő irányítójel egy mátrix.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-18",
+        "front": "MIMO-rendszer esetén az állapot-visszacsatolás eredményeképp létrejövő irányítójel egy mátrix.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-19",
+        "front": "Egy bemenetű és egy kimenetű rendszer esetén az állapot-visszacsatolás eredményeképp létrejövő irányítójel egy skalár.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-20",
+        "front": "Egy bemenetű és egy kimenetű rendszer esetén az állapot-visszacsatolás eredményeképp létrejövő irányítójel vektor.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-21",
+        "front": "Pólusáthelyezéssel sokkal egyszerűbb a nem stabil rendszer stabilizálása, mint a PID-szabályozókkal.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-22",
+        "front": "Pólusáthelyezéssel a rendszer felgyorsítása egyszerűbben elvégezhető, mint a PID-szabályozókkal.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-23",
+        "front": "Állapot-visszacsatolással közvetlenül a zárt rendszer dinamikáját tudjuk meghatározni.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-24",
+        "front": "Állapot-visszacsatolással a rendszer dinamikájára nincs hatásunk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-25",
+        "front": "Ha egy rendszer irányítható, akkor a pólusáthelyezés alkalmazható.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-26",
+        "front": "A pólusáthelyezés alkalmazhatóságának feltétele, hogy a rendszer irányítható legyen.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-27",
+        "front": "Ha egy rendszer megfigyelhető, akkor a pólusáthelyezés alkalmazható.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-28",
+        "front": "A pólusáthelyezés alkalmazhatóságának feltétele, hogy a rendszer megfigyelhető legyen.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-29",
+        "front": "A pólusáthelyezés alkalmazhatóságának feltétele, hogy a rendszer stabil legyen.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-30",
+        "front": "A pólusáthelyezés könnyen megoldható, ha a rendszer irányíthatósági alakja rendelkezésre áll.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-31",
+        "front": "Az irányíthatósági alak közvetlenül felírható az átviteli függvényből.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-32",
+        "front": "Az irányíthatósági alak közvetlenül felírható az állapotváltozós leírásból.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-33",
+        "front": "A megfigyelhetőségi alak közvetlenül felírható az átviteli függvényből.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-34",
+        "front": "A megfigyelhetőségi alak közvetlenül felírható az állapotváltozós leírásból.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-35",
+        "front": "A Bass-Gura-módszer használja az irányíthatósági mátrix inverzét.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-36",
+        "front": "Az Ackermann-képlet használja az irányíthatósági mátrix inverzét.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-37",
+        "front": "A Bass-Gura-módszer nem használja az irányíthatósági mátrix inverzét.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-38",
+        "front": "Az Ackermann-képlet nem használja az irányíthatósági mátrix inverzét.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-39",
+        "front": "A Bass-Gura-algoritmust célszerű alkalmazni a pólusáthelyezésben, mert az nem használja fel az irányíthatósági mátrix inverzét.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-40",
+        "front": "Az Ackermann-képletet célszerű alkalmazni a pólusáthelyezésben, mert az nem használja fel az irányíthatósági mátrix inverzét.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-41",
+        "front": "A pólusáthelyezés helyben hagyja a zérusokat.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-42",
+        "front": "A pólusáthelyezés nem csak a pólusokat változtatja meg, hanem a zérusokat is.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-43",
+        "front": "A pólusáthelyezés helyben hagyja a pólusokat.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-44",
+        "front": "A pólusáthelyezés célja a sajátértékek megfelelő helyre való átmozdítása.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-45",
+        "front": "Az állapot-visszacsatolás célja a pólusok megfelelő helyre való átmozdítása.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-46",
+        "front": "A pólusáthelyezés módosítja a sajátértékeket, de a zérusokat nem.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-47",
+        "front": "A pólusáthelyezés módosítja a sajátértékeket és a zérusokat is.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-48",
+        "front": "A fizikailag is létező állapot szenzorral mérhető.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-49",
+        "front": "A fizikailag nem létező állapot szenzorral mérhető.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-50",
+        "front": "Állapotmegfigyelő segítségével az állapotváltozó becsülhető.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-51",
+        "front": "Állapotmegfigyelő segítségével az állapotváltozó módosítható.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-52",
+        "front": "Az állapotmegfigyelő tartalmazza a rendszer modelljét.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-53",
+        "front": "Az állapotmegfigyelő a rendszer modelljét nem tartalmazza.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-54",
+        "front": "Az állapotmegfigyelő hasonló módszerekkel tervezhető, mint a pólusáthelyezés.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-55",
+        "front": "Az állapotmegfigyelő tervezésére más módszereket dolgoztak ki, mint a pólusáthelyezés megvalósítására.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-56",
+        "front": "Az állapotmegfigyelő hasonló módszerekkel tervezhető, mint a PID-szabályozók.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-57",
+        "front": "Ha egy rendszer irányítható, akkor állapotmegfigyelő is beiktatható.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-58",
+        "front": "Megfigyelő alkalmazhatóságának feltétele, hogy a rendszer megfigyelhető legyen.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-59",
+        "front": "Megfigyelő alkalmazhatóságának feltétele, hogy a rendszer stabil legyen.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-60",
+        "front": "A megfigyelő tervezése könnyen megoldható, ha a rendszer megfigyelhetőségi alakja rendelkezésre áll.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-61",
+        "front": "Megfigyelőtervezéskor a Bass-Gura-módszer használja a megfigyelhetőségi mátrix inverzét.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-62",
+        "front": "Megfigyelőtervezéskor az Ackermann-képlet használja a megfigyelhetőségi mátrix inverzét.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-63",
+        "front": "Megfigyelőtervezéskor a Bass-Gura-módszer nem használja a megfigyelhetőségi mátrix inverzét.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-64",
+        "front": "Megfigyelőtervezéskor az Ackermann-képlet nem használja a megfigyelhetőségi mátrix inverzét.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-65",
+        "front": "A Bass-Gura-algoritmust célszerű alkalmazni a megfigyelőtervezésben, mert az nem használja fel a megfigyelhetőségi mátrix inverzét.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-66",
+        "front": "Az Ackermann-képletet célszerű alkalmazni a megfigyelőtervezésben, mert az nem használja fel a megfigyelhetőségi mátrix inverzét.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-67",
+        "front": "A szeparációs elv értelmében a pólusáthelyezés és a megfigyelő tervezése függetlenül elvégezhető.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-68",
+        "front": "A pólusáthelyezés és a megfigyelő tervezése egymástól függetlenül nem végezhető el.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-69",
+        "front": "Állapotvisszacsatolást alkalmazó szabályozási körben az alapjel előrecsatolással vehető figyelembe.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-70",
+        "front": "MIMO rendszerek állapotvisszacsatoláson alapuló irányítása az Ackermann-képlettel tervezhető.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-71",
+        "front": "MIMO rendszerek állapotvisszacsatoláson alapuló irányítása a Bass-Gura-képlettel tervezhető.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-72",
+        "front": "SISO rendszerek állapotvisszacsatoláson alapuló irányítása az Ackermann-képlettel tervezhető.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-73",
+        "front": "SISO rendszerek állapotvisszacsatoláson alapuló irányítása a Bass-Gura-képlettel tervezhető.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-74",
+        "front": "MIMO rendszernek több bemenete és több kimenete van.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-75",
+        "front": "MIMO rendszernek több bemenete és egy kimenete van.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-76",
+        "front": "MIMO rendszernek egy bemenete és több kimenete van.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-77",
+        "front": "MIMO rendszernek egy bemenete és egy kimenete van.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-78",
+        "front": "SISO rendszernek több bemenete és több kimenete van.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-79",
+        "front": "SISO rendszernek több bemenete és egy kimenete van.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-80",
+        "front": "SISO rendszernek egy bemenete és több kimenete van.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-81",
+        "front": "SISO rendszernek egy bemenete és egy kimenete van.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-82",
+        "front": "SISO rendszer állapotvisszacsatolásában egy kT sorvektor szerepel.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-83",
+        "front": "MIMO rendszer állapotvisszacsatolásában egy kT sorvektor szerepel.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-84",
+        "front": "SISO rendszer állapotvisszacsatolásában egy K mátrix szerepel.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-85",
+        "front": "MIMO rendszer állapotvisszacsatolásában egy K mátrix szerepel.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-86",
+        "front": "SISO rendszer állapotvisszacsatoláson alapuló irányítása során az irányítójel skalár.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-87",
+        "front": "MIMO rendszer állapotvisszacsatoláson alapuló irányítása során az irányítójel skalár.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-88",
+        "front": "SISO rendszer állapotvisszacsatoláson alapuló irányítása során az irányítójel vektor.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-89",
+        "front": "MIMO rendszer állapotvisszacsatoláson alapuló irányítása során az irányítójel vektor.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-90",
+        "front": "SISO rendszer állapotvisszacsatoláson alapuló irányítása során az irányítójel u=-kTx.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-91",
+        "front": "MIMO rendszer állapotvisszacsatoláson alapuló irányítása során az irányítójel u=-Kx.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-92",
+        "front": "MIMO rendszer állapotvisszacsatoláson alapuló irányítása során az Ackermann-féle normálalakot használjuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-93",
+        "front": "MIMO rendszer állapotvisszacsatoláson alapuló irányítása során az Luenberger-féle normálalakot használjuk.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-94",
+        "front": "Az irányíthatóság megállapításához az irányíthatósági mátrix rangját használjuk fel.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-95",
+        "front": "A rendszer irányítható, ha az irányíthatósági mátrix rangja megegyezik az állapotváltozók számával.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-96",
+        "front": "A rendszer irányítható, ha az irányíthatósági mátrix rangja kisebb az állapotváltozók számánál.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-97",
+        "front": "A rendszer irányítható, ha az irányíthatósági mátrix rangja nagyobb az állapotváltozók számánál.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-98",
+        "front": "A rendszer irányítható, ha az irányíthatósági mátrix rangja megegyezik a bemenetek számával.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-99",
+        "front": "A rendszer irányítható, ha az irányíthatósági mátrix rangja nagyobb a bemenetek számánál.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-100",
+        "front": "A rendszer irányítható, ha az irányíthatósági mátrix rangja kisebb a bemenetek számával.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-101",
+        "front": "A rendszer irányítható, ha a rendszer bemeneteinek és kimeneteinek a száma megegyezik.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-102",
+        "front": "A rendszer irányítható, ha a rendszer bemeneteinek a száma és az állapotváltozók száma megegyezik.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-103",
+        "front": "A rendszer irányítható, ha a rendszer kimeneteinek a száma és az állapotváltozók száma megegyezik.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-104",
+        "front": "A megfigyelhetőség megállapításához a megfigyelhetőségi mátrix rangját használjuk fel.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-105",
+        "front": "A rendszer megfigyelhető, ha a megfigyelhetőségi mátrix rangja megegyezik az állapotváltozók számával.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-106",
+        "front": "A rendszer megfigyelhető, ha a megfigyelhetőségi mátrix rangja kisebb az állapotváltozók számánál.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-107",
+        "front": "A rendszer megfigyelhető, ha a megfigyelhetőségi mátrix rangja nagyobb az állapotváltozók számánál.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-108",
+        "front": "A rendszer megfigyelhető, ha a megfigyelhetőségi mátrix rangja megegyezik a bemenetek számával.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-109",
+        "front": "A rendszer megfigyelhető, ha a megfigyelhetőségi mátrix rangja nagyobb a bemenetek számánál.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-110",
+        "front": "A rendszer megfigyelhető, ha a megfigyelhetőségi mátrix rangja kisebb a bemenetek számával.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-111",
+        "front": "A rendszer megfigyelhető, ha a rendszer bemeneteinek és kimeneteinek a száma megegyezik.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-112",
+        "front": "A rendszer megfigyelhető, ha a rendszer bemeneteinek a száma és az állapotváltozók száma megegyezik.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-113",
+        "front": "A rendszer megfigyelhető, ha a rendszer kimeneteinek a száma és az állapotváltozók száma megegyezik.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-114",
+        "front": "MIMO pólusáthelyezésnél a zárt rendszer kívánt pólusait írjuk elő.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-115",
+        "front": "MIMO pólusáthelyezésnél a zárt rendszer kívánt sajátértékeit írjuk elő.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-116",
+        "front": "Pólusáthelyezésnél, folytonos idejű rendszer esetén, célszerű a sajátértékeket a komplex számsík bal oldalára tervezni.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-117",
+        "front": "Pólusáthelyezésnél, folytonos idejű rendszer esetén, célszerű a sajátértékeket a komplex számsík jobb oldalára tervezni.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-118",
+        "front": "SISO rendszer állapotvisszacsatolással történő szabályozásának tervezésekor a visszacsatoló vektor meghatározása egyértelmű.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-119",
+        "front": "MIMO rendszer állapotvisszacsatolással történő szabályozásának tervezésekor a visszacsatoló mátrix meghatározása egyértelmű.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-120",
+        "front": "SISO rendszer állapotvisszacsatolással történő szabályozásának tervezésekor a visszacsatoló vektor meghatározása nem egyértelmű.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-121",
+        "front": "MIMO rendszer állapotvisszacsatolással történő szabályozásának tervezésekor a visszacsatoló mátrix meghatározása nem egyértelmű.",
+        "back": "Igaz"
+      }
+    ]
+  },
+{
+    "id": "flashcard-3",
+    "title": "Irányításelmélet vizsga 7. kérdések",
+    "description": "Igaz/Hamis állítások",
+    "cards": [
+      {
+        "id": "card-1",
+        "front": "A rendszer identifikációja alatt a rendszer modelljének meghatározását értjük.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-2",
+        "front": "A rendszer identifikációja során a rendszermodell paramétereit határozzuk meg.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-3",
+        "front": "A folyamatidentifikáció során a rendszermodell paramétereit határozzuk meg.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-4",
+        "front": "A folyamatidentifikáció során a bemenő- és a hozzátartozó kimenő jeleket használjuk fel.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-5",
+        "front": "A rendszeranalízis alatt a rendszer modelljének meghatározását értjük.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-6",
+        "front": "A rendszer szintézise során a rendszermodell paramétereit határozzuk meg.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-7",
+        "front": "A folyamatidentifikáció során a rendszer válaszjelét számítjuk ki a bemenet ismeretében.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-8",
+        "front": "A rendszeridentifikáció során a valóságos folyamat egy modelljét azonosítjuk.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-9",
+        "front": "A rendszer identifikációja során a rendszeren végzett méréseket használjuk fel.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-10",
+        "front": "A rendszer szintézise során a rendszeren végzett bemeneti-kimeneti méréseket használjuk fel.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-11",
+        "front": "A rendszer analízise során a rendszeren végzett bemeneti-kimeneti méréseket használjuk fel.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-12",
+        "front": "Folyamatidentifikáció során az  hibajelet minimalizáljuk.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-13",
+        "front": "Folyamatszintézis során az  hibajelet minimalizáljuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-14",
+        "front": "Folyamatanalízis során az  hibajelet minimalizáljuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-15",
+        "front": "A legkisebb négyzetek módszere a mérési hibák legkisebb értékét határozza meg.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-16",
+        "front": "A legkisebb négyzetek módszere a mérési hibák négyzetének a legkisebb értékét határozza meg.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-17",
+        "front": "A legkisebb négyzetek módszere a mérési hibák abszolút értékének a legkisebb értékét határozza meg.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-18",
+        "front": "A legkisebb négyzetek módszere az identifikáció hibájának legkisebb értékét határozza meg.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-19",
+        "front": "A legkisebb négyzetek módszere a négyzetes hibát minimalizálja.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-20",
+        "front": "A legkisebb négyzetek módszerével a négyzetes hibát minimalizáljuk és így határozzuk meg a modell paramétereit.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-21",
+        "front": "A legkisebb négyzetek módszerével a négyzetes hibát minimalizáljuk és így határozzuk meg a rendszer kimenőjelét.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-22",
+        "front": "Az LS-becslés a mérési hibák legkisebb értékét határozza meg.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-23",
+        "front": "Az LS-becslés a mérési hibák négyzetének a legkisebb értékét határozza meg.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-24",
+        "front": "Az LS-becslés az identifikáció hibájának legkisebb értékét határozza meg.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-25",
+        "front": "Az LS-becslés a négyzetes hibát minimalizálja.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-26",
+        "front": "Az LS-becslés a négyzetes hibát minimalizáljuk és így határozzuk meg a modell paramétereit.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-27",
+        "front": "Az LS-becsléssel a négyzetes hibát minimalizáljuk és így határozzuk meg a rendszer kimenőjelét.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-28",
+        "front": "Az off-line paraméterbecslést másnéven batch módszernek is hívja a szakirodalom.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-29",
+        "front": "Az online paraméterbecslést másnéven batch módszernek is hívja a szakirodalom.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-30",
+        "front": "Az online paraméterbecslést másnéven rekurzív módszernek is hívja a szakirodalom.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-31",
+        "front": "Az off-line paraméterbecsléshez a mérési adatokat előre be kell gyűjteni.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-32",
+        "front": "Az online paraméterbecsléshez a mérési adatokat előre be kell gyűjteni.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-33",
+        "front": "Az off-line paraméterbecsléshez a mérési adatok valós időben érkeznek.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-34",
+        "front": "Az online paraméterbecsléshez a mérési adatok valós időben érkeznek.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-35",
+        "front": "A paraméterbecslés normálegyenletének levezetése során a négyzetes hibát a paraméterek szerint deriváljuk.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-36",
+        "front": "A paraméterbecslés normálegyenletének levezetése során a négyzetes hibát egyszerűen egyenlővé tesszük nullával.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-37",
+        "front": "A paraméterbecslés normálegyenletének levezetése során a négyzetes hiba minimumát keressük.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-38",
+        "front": "A paraméterbecslés normálegyenletének levezetése során a négyzetes hiba maximumát keressük.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-39",
+        "front": "A kvadratikus hibának egy minimumhelye van.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-40",
+        "front": "A kvadratikus hibának sajnos több lokális minimumhelye is van.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-41",
+        "front": "A batch identifikációs módszer nagy előnye, hogy rekurzíve futtatható.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-42",
+        "front": "Az online paraméterbecslés módszerének nagy előnye, hogy rekurzíve futtatható.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-43",
+        "front": "A determinisztikus jel sok esetben megadható képlet formájában.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-44",
+        "front": "A sztochasztikus jel sok esetben megadható képlet formájában.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-45",
+        "front": "Az egységugrásjel abszolút integrálható függvény.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-46",
+        "front": "A Dirac-impulzus abszolút integrálható.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-47",
+        "front": "Az egységugrásjel a t=0 időpillanatban szakadással rendelkezik.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-48",
+        "front": "Az egységugrásjel általánosított deriváltja a Dirac-féle deltafüggvény.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-49",
+        "front": "A Dirac-impulzus általánosított deriváltja az egységugrásjel.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-50",
+        "front": "A sajátérték és az időállandó között a következő összefüggés áll fenn: .",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-51",
+        "front": "A sajátérték és az időállandó között a következő összefüggés áll fenn: .",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-52",
+        "front": "A sajátérték és az időállandó között a következő összefüggés áll fenn: .",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-53",
+        "front": "A sajátérték és az időállandó között a következő összefüggés áll fenn: .",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-54",
+        "front": "Az  a konvolúciós integrál általános kifejezése.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-55",
+        "front": "Az  a konvolúciós integrál általános kifejezése.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-56",
+        "front": "Az  a konvolúciós integrál általános kifejezése.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-57",
+        "front": "Az  a konvolúciós integrál általános kifejezése.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-58",
+        "front": "Az  a konvolúciós integrál általános kifejezése.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-59",
+        "front": "Kauzális rendszer impulzusválasza és ugrásválasza belépő.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-60",
+        "front": "Fizikailag létező rendszer impulzusválasza és ugrásválasza belépő.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-61",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer gerjesztés-válasz stabil, ha impulzusválasza abszolút integrálható.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-62",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer gerjesztés-válasz stabil, ha impulzusválasza stacionárius állapotban a nullához tart.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-63",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer gerjesztés-válasz stabil, ha impulzusválasza stacionárius állapotban nullától különböző konstans értékhez tart.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-64",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer gerjesztés-válasz stabil, ha impulzusválaszában szereplő valamennyi  sajátérték valós része negatív.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-65",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer gerjesztés-válasz stabil, ha impulzusválaszában szereplő valamennyi  sajátérték képzetes része negatív.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-66",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer gerjesztés-válasz stabil, ha impulzusválaszában szereplő valamennyi  sajátérték valós része pozitív.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-67",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer gerjesztés-válasz stabil, ha impulzusválaszában szereplő valamennyi  sajátérték valós része 1-nél kisebb.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-68",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer gerjesztés-válasz stabil, ha impulzusválaszában szereplő valamennyi  sajátérték abszolút értéke 1-nél kisebb.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-69",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer gerjesztés-válasz stabil, ha impulzusválaszában szereplő valamennyi  sajátérték a komplex számsík bal oldali félsíkján helyezkedik el.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-70",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer gerjesztés-válasz stabil, ha impulzusválaszában szereplő valamennyi  sajátérték a komplex számsík jobb oldali félsíkján helyezkedik el.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-71",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer gerjesztés-válasz stabil, ha impulzusválaszában szereplő  sajátértékek között van olyan, amelyik a komplex számsík bal oldali félsíkján helyezkedik el, és van olyan, amelyik a komplex számsík jobb oldali félsíkján.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-72",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer aszimptotikusan stabil, ha állapotvektora az origóba tart.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-73",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer aszimptotikusan stabil, ha a rendszermátrix valamennyi sajátértékének a valós része negatív.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-74",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer aszimptotikusan stabil, ha a rendszermátrix valamennyi sajátértékének a képzetes része negatív.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-75",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer aszimptotikusan stabil, ha a rendszermátrix valamennyi sajátértékének a valós része pozitív.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-76",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer aszimptotikusan stabil, ha a rendszermátrix valamennyi sajátértékének a valós része 1-nél kisebb.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-77",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer aszimptotikusan stabil, ha a rendszermátrix valamennyi sajátértékének az abszolút értéke 1-nél kisebb.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-78",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer aszimptotikusan stabil, ha a rendszermátrix valamennyi sajátértéke a komplex számsík bal oldali félsíkján helyezkedik el.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-79",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer aszimptotikusan stabil, ha a rendszermátrix valamennyi sajátértéke a komplex számsík jobb oldali félsíkján helyezkedik el.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-80",
+        "front": "Ha egy lineáris rendszer bemenetére  körfrekvenciájú szinuszos jelet kapcsolunk, akkor a válaszjel is szinuszos, melynek körfrekvenciája szintén .",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-81",
+        "front": "Ha egy nemlineáris rendszer bemenetére  körfrekvenciájú szinuszos jelet kapcsolunk, akkor a válaszjel is szinuszos, melynek körfrekvenciája szintén .",
+        "back": "Hamis"
+      }
+    ]
+  },
+{
+    "id": "flashcard-4",
+    "title": "Irányításelmélet vizsga 8. kérdések",
+    "description": "Igaz/Hamis állítások",
+    "cards": [
+      {
+        "id": "card-1",
+        "front": "Az optimális szabályozás egy állapotvisszacsatoláson alapuló módszer.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-2",
+        "front": "Az optimális szabályozás nem használ állapotvisszacsatolást.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-3",
+        "front": "Az optimális vezérlés nem használ állapotvisszacsatolást.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-4",
+        "front": "Az optimális vezérlés nem használ visszacsatolást.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-5",
+        "front": "Az optimális vezérlés visszacsatolást alkalmaz.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-6",
+        "front": "Az optimális szabályozás visszacsatolást alkalmaz.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-7",
+        "front": "Egy irányítás attól optimális, hogy közben valamilyen költséget minimalizálunk.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-8",
+        "front": "Egy vezérlés attól optimális, hogy közben valamilyen költséget minimalizálunk.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-9",
+        "front": "Egy szabályozás attól optimális, hogy közben valamilyen költséget minimalizálunk.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-10",
+        "front": "Egy irányítás attól optimális, hogy közben a beavatkozójelet adott érték alatt tartjuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-11",
+        "front": "Egy irányítás attól optimális, hogy közben a kimenőjelet adott érték alatt tartjuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-12",
+        "front": "Egy irányítás attól optimális, hogy közben a referenciajelet adott érték alatt tartjuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-13",
+        "front": "Egy irányítás attól optimális, hogy közben a referenciajelet előre megszabjuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-14",
+        "front": "A szabályozás akkor optimális, hogy közben a beavatkozójelet adott érték alatt tartjuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-15",
+        "front": "A szabályozás akkor optimális, hogy közben a kimenőjelet adott érték alatt tartjuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-16",
+        "front": "A szabályozás akkor optimális, hogy közben a referenciajelet adott érték alatt tartjuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-17",
+        "front": "A szabályozás akkor optimális, hogy közben a referenciajelet előre megszabjuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-18",
+        "front": "A vezérlés akkor optimális, hogy közben a beavatkozójelet adott érték alatt tartjuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-19",
+        "front": "A vezérlés akkor optimális, hogy közben a kimenőjelet adott érték alatt tartjuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-20",
+        "front": "A vezérlés akkor optimális, hogy közben a referenciajelet adott érték alatt tartjuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-21",
+        "front": "A vezérlés akkor optimális, hogy közben a referenciajelet előre megszabjuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-22",
+        "front": "Optimális irányítás során a minimalizálandó költségfüggvény kvadratikus alakú.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-23",
+        "front": "Optimális irányítás során a J költségfüggvény kvadratikus alakú.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-24",
+        "front": "Korlátozó feltétel lehet pl. egy jármű maximális vagy a minimális sebessége.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-25",
+        "front": "Korlátozó feltétel lehet pl. valamely állapotváltozó maximális vagy a minimális értéke.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-26",
+        "front": "Korlátozó feltétel lehet a beavatkozójel maximális vagy a minimális értéke.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-27",
+        "front": "Optimális irányítás esetében nem szabhatunk korlátozó feltételt a beavatkozójelre.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-28",
+        "front": "Optimális irányítás esetében nem szabhatunk korlátozó feltételt a kimenőjelre.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-29",
+        "front": "Optimális irányítás esetében nem szabhatunk korlátozó feltételt az állapotváltozók értékére.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-30",
+        "front": "Az optimális irányítás J költségfüggvénye nem függhet az állapotváltozótól.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-31",
+        "front": "Az optimális irányítás J költségfüggvénye nem függhet az irányítójeltől.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-32",
+        "front": "Az optimális irányítás J költségfüggvénye nem függhet az időtől.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-33",
+        "front": "Az optimális irányítás költségfüggvényét a matematika nyelvén funkcionálnak nevezzük.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-34",
+        "front": "Az optimális irányítás költségfüggvényét a matematika nyelvén variációnak nevezzük.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-35",
+        "front": "Optimális irányítás során egy funkcionált minimalizálunk.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-36",
+        "front": "Optimális vezérlés során egy funkcionált minimalizálunk.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-37",
+        "front": "Optimális szabályozás során egy funkcionált minimalizálunk.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-38",
+        "front": "Optimális irányítás során a variációt minimalizáljuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-39",
+        "front": "Optimális vezérlés során a variációt minimalizáljuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-40",
+        "front": "Optimális szabályozás során a variációt minimalizáljuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-41",
+        "front": "Az optimum minimum, ha a második variáció pozitív.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-42",
+        "front": "Az optimum maximum, ha a második variáció pozitív.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-43",
+        "front": "Az optimum minimum, ha a második variáció negatív.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-44",
+        "front": "Az optimum maximum, ha a második variáció negatív.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-45",
+        "front": "Optimum helyén az első variáció nulla.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-46",
+        "front": "Optimum helyén az első variáció pozitív.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-47",
+        "front": "Optimum helyén az első variáció negatív.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-48",
+        "front": "Optimum helyén az első variáció pozitív vagy negatív.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-49",
+        "front": "A Kálmán-szűrő egy megfigyelő.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-50",
+        "front": "A Kálmán-szűrő egy observer.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-51",
+        "front": "A Kálmán-szűrő egy szabályozótervezési eljárás.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-52",
+        "front": "A Kálmán-szűrő egy megfigyelőtervezési eljárás.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-53",
+        "front": "A Kálmán-szűrő állapottér alapú technika.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-54",
+        "front": "A Kálmán-szűrővel a zajos jeleket tudjuk szűrni, és így a felharmonikustartalom kisebb lesz.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-55",
+        "front": "A Kálmán-szűrő egy iteratív eljárás.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-56",
+        "front": "A Kálmán-szűrő egy rekurzív technika.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-57",
+        "front": "A Kálmán-szűrő nem veszi figyelembe a zajt.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-58",
+        "front": "A Kálmán-szűrő figyelembe veszi a zajt.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-59",
+        "front": "A fehérzaj várható értéke nulla.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-60",
+        "front": "A fehérzaj várható értéke egységnyi.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-61",
+        "front": "A fehérzaj várható értéke nullánál mindig nagyobb.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-62",
+        "front": "A fehérzaj várható értéke nullánál mindig kisebb.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-63",
+        "front": "Kálmán-szűrővel csak a fehérzajt tudjuk modellezni.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-64",
+        "front": "A Kálmán-szűrőnek van olyan változata, amely a színes zajt is tudja modellezni.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-65",
+        "front": "A Kálmán-szűrőnek számos változata ismert az irodalomban.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-66",
+        "front": "A Kálmán-szűrő csak lineáris rendszer esetén alkalmazható.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-67",
+        "front": "A Kálmán-szűrő csak nemlineáris rendszer esetén alkalmazható.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-68",
+        "front": "A Kálmán-szűrőt kiterjesztették nemlineáris rendszer esetére is.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-69",
+        "front": "A Kálmán-szűrő csak diszkrét idejű rendszermodell esetén alkalmazható.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-70",
+        "front": "A Kálmán-szűrő csak folytonos idejű rendszermodell esetén alkalmazható.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-71",
+        "front": "A Kálmán-szűrő tervezésére az állapottér alapú szabályozótervezésből ismert Ackermann-formulát használjuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-72",
+        "front": "A Kálmán-szűrő tervezésére az állapottér alapú szabályozótervezésből ismert Bass-Gura-formulát használjuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-73",
+        "front": "A Kálmán-szűrő tervezésére az állapottér alapú szabályozótervezésből ismert Luenberger-módszert használjuk.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-74",
+        "front": "Diszkrét idejű Kálmán-szűrő tervezésére lineáris és időinvariáns esetben az ún. DI-FARE egyenletet használjuk.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-75",
+        "front": "A DI-FARE egyenlet egy Riccati-egyenlet.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-76",
+        "front": "A FARE egyenlet a Filter Algebraic Riccati Equation rövidítése.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-77",
+        "front": "A DI-FARE egyenlet a Kálmán-szűrő tervezésére alkalmas.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-78",
+        "front": "A DI-FARE egyenlet megoldása analitikusan nehéz feladat.",
+        "back": "Igaz"
+      },
+      {
+        "id": "card-79",
+        "front": "A DI-FARE egyenlet a Luenberger-féle megfigyelő tervezésére alkalmas.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-80",
+        "front": "A DI-FARE egyenlet az Ackermann-képlettel könnyedén megoldható.",
+        "back": "Hamis"
+      },
+      {
+        "id": "card-81",
+        "front": "A DI-FARE egyenlet megoldására dolgozták ki a Bass-Gura-módszert.",
+        "back": "Hamis"
+      }
+    ]
+  },
+{
+    "id": "flashcard-5",
+    "title": "Irányításelmélet vizsga 9. kérdések",
+    "description": "Szókitöltős fogalmak",
+    "cards": [
+      {
+        "id": "card-1",
+        "front": "A(z) ……………………… irányítás során egy költségfüggvényt minimalizálunk.",
+        "back": "OPTIMÁLIS"
+      },
+      {
+        "id": "card-2",
+        "front": "Optimális irányítás során valamilyen …………………függvényt minimalizálunk.",
+        "back": "KÖLTSÉG"
+      },
+      {
+        "id": "card-3",
+        "front": "Minimális ……………… irányítás során a rendszer irányítására minimális időt kívánunk szánni.",
+        "back": "IDEJŰ"
+      },
+      {
+        "id": "card-4",
+        "front": "Minimális ……………… irányítás során a rendszer irányítására minimális energiát kívánunk szánni.",
+        "back": "ENERGIÁJÚ"
+      },
+      {
+        "id": "card-5",
+        "front": "Fizikai, technológiai stb. megfontolások miatt ……………… feltételeket kell bevezetni.",
+        "back": "KORLÁTOZÓ"
+      },
+      {
+        "id": "card-6",
+        "front": "A költségfüggvény matematikai neve: ………………….",
+        "back": "FUNKCIONÁL"
+      },
+      {
+        "id": "card-7",
+        "front": "Az f(t) …………… t minden értékéhez egy értéket rendel.",
+        "back": "FÜGGVÉNY"
+      },
+      {
+        "id": "card-8",
+        "front": "A J(x(t)) …………… minden x(t) függvényhez egy értéket rendel.",
+        "back": "FUNKCIONÁL"
+      },
+      {
+        "id": "card-9",
+        "front": "Egy x(t) függvény J(x(t)) függvénye az ún. …………………….",
+        "back": "FUNKCIONÁL"
+      },
+      {
+        "id": "card-10",
+        "front": "A J funkcionál …………helyén a funkcionál növekménye pozitív vagy nulla.",
+        "back": "MINIMUM"
+      },
+      {
+        "id": "card-11",
+        "front": "A J funkcionál …………helyén a funkcionál növekménye negatív vagy nulla.",
+        "back": "MAXIMUM"
+      },
+      {
+        "id": "card-12",
+        "front": "A J funkcionál optimumhelyén az első ………… nulla.",
+        "back": "VARIÁCIÓ"
+      },
+      {
+        "id": "card-13",
+        "front": "A J funkcionál optimumhelyén a(z) ………… variáció nulla.",
+        "back": "ELSŐ"
+      },
+      {
+        "id": "card-14",
+        "front": "A J funkcionál optimumhelyén az első variáció értéke ………….",
+        "back": "NULLA"
+      },
+      {
+        "id": "card-15",
+        "front": "Az optimum szükséges feltétele, hogy az x*(t) függvény kielégítse a(z) …………-…………-egyenletet.",
+        "back": "EULER LAGRANGE vagy EULER-LAGRANGE"
+      },
+      {
+        "id": "card-16",
+        "front": "Korlátozást is tartalmazó optimális irányítási feladat a(z) ……………-elv segítségével oldható meg.",
+        "back": "PONTRJAGIN"
+      },
+      {
+        "id": "card-17",
+        "front": "Zajjal terhelt rendszer állapotbecslésére az ún. …………-szűrőt alkalmazzuk.",
+        "back": "KÁLMÁN vagy KALMAN"
+      },
+      {
+        "id": "card-18",
+        "front": "Az művelet az állapotváltozó ……………………..",
+        "back": "TRANSZFORMÁCIÓ"
+      },
+      {
+        "id": "card-19",
+        "front": "Az állapottranszformációban szereplő mátrix ………………. kell legyen.",
+        "back": "INVERTÁLHATÓ"
+      },
+      {
+        "id": "card-20",
+        "front": "A(z) …………….-alakban a rendszermátrix főátlójában a sajátértékek sorakoznak.",
+        "back": "DIAGONÁL"
+      },
+      {
+        "id": "card-21",
+        "front": "A diagonál-alakban a rendszermátrix ……………. sorakoznak.",
+        "back": "SAJÁTÉRTÉK"
+      },
+      {
+        "id": "card-22",
+        "front": "A(z) ……………….-alakban a oszlopvektor első (vagy utolsó) eleme 1, a többi eleme nulla.",
+        "back": "IRÁNYÍTHATÓ"
+      },
+      {
+        "id": "card-23",
+        "front": "A(z) ……………….-alakban a sorvektor első (vagy utolsó) eleme 1, a többi eleme nulla.",
+        "back": "MEGFIGYELHETŐ"
+      },
+      {
+        "id": "card-24",
+        "front": "A(z) …………………… vizsgálatának kérdése, hogy a rendszer bemenőjelével vajon valamennyi állapotváltozó befolyásolható vagy sem.",
+        "back": "IRÁNYÍTHATÓSÁG"
+      },
+      {
+        "id": "card-25",
+        "front": "A(z) …………………… vizsgálatának kérdése, hogy a rendszer bemenő- és kimenő jeleinek mérése által a rendszer állapota meghatározható vagy sem.",
+        "back": "MEGFIGYELHETŐSÉG"
+      },
+      {
+        "id": "card-26",
+        "front": "A , , stb. oszlopvektorokból összeállított mátrix a(z) …………………. mátrix.",
+        "back": "IRÁNYÍTHATÓSÁGI"
+      },
+      {
+        "id": "card-27",
+        "front": "A , , stb. sorvektorokból összeállított mátrix a(z) …………………… mátrix.",
+        "back": "MEGFIGYELHETŐSÉGI"
+      },
+      {
+        "id": "card-28",
+        "front": "Egy rendszer akkor irányítható, ha irányíthatósági mátrixának létezik ……………….",
+        "back": "INVERZ"
+      },
+      {
+        "id": "card-29",
+        "front": "Egy rendszer akkor megfigyelhető, ha megfigyelhetőségi mátrixának létezik ……………….",
+        "back": "INVERZ"
+      },
+      {
+        "id": "card-30",
+        "front": "Egy rendszer akkor irányítható, ha irányíthatósági mátrixának a …………… maximális.",
+        "back": "RANG"
+      },
+      {
+        "id": "card-31",
+        "front": "Egy rendszer akkor megfigyelhető, ha megfigyelhetőségi mátrixának a ………………. maximális.",
+        "back": "RANG"
+      },
+      {
+        "id": "card-32",
+        "front": "Egy rendszer akkor irányítható, ha irányíthatósági mátrixának a …………… nem nulla.",
+        "back": "DETERMINÁNS"
+      },
+      {
+        "id": "card-33",
+        "front": "Egy rendszer akkor megfigyelhető, ha megfigyelhetőségi mátrixának a ………………. nem nulla.",
+        "back": "DETERMINÁNS"
+      },
+      {
+        "id": "card-34",
+        "front": "Egy mátrix rangja maximális, ha sorai (oszlopai) ……………… függetlenek.",
+        "back": "LINEÁRISAN"
+      },
+      {
+        "id": "card-35",
+        "front": "Állapot-visszacsatolással a rendszer ………………… tudjuk megváltoztatni.",
+        "back": "SAJÁTÉRTÉK, PÓLUS"
+      },
+      {
+        "id": "card-36",
+        "front": "Állapot-visszacsatolásnál a rendszer ………………… csatoljuk vissza.",
+        "back": "ÁLLAPOT vagy ÁLLAPOVÁLTOZÓ vagy ÁLLAPOTVEKTOR"
+      },
+      {
+        "id": "card-37",
+        "front": "Állapot-visszacsatolás esetén az irányítójel az állapotváltozók ……………. kombinációjaként áll elő.",
+        "back": "LINEÁRIS"
+      },
+      {
+        "id": "card-38",
+        "front": "Állapot-visszacsatolás esetén az ……………. az állapotváltozók lineáris kombinációjaként áll elő.",
+        "back": "IRÁNYÍTÓJEL"
+      },
+      {
+        "id": "card-39",
+        "front": "Az állapot-visszacsatolás a rendszermátrixot egy ………….. módosítja.",
+        "back": "DIÁD"
+      },
+      {
+        "id": "card-40",
+        "front": "Állapot-visszacsatolásnál a zárt kör ………………………… polinomját adjuk meg kiindulásként.",
+        "back": "KARAKTERISZTIKUS"
+      },
+      {
+        "id": "card-41",
+        "front": "A(z) …………….. egyértelműen megadja, hogy a rendszer állapot-visszacsatolással szabályozható vagy sem.",
+        "back": "IRÁNYÍTHATÓSÁG"
+      },
+      {
+        "id": "card-42",
+        "front": "A pólusáthelyezés például az ún. ……………………-algoritmussal valósítható meg.",
+        "back": "BASS-GURA"
+      },
+      {
+        "id": "card-43",
+        "front": "A pólusáthelyezés például az ún. ……………………-képlettel valósítható meg.",
+        "back": "ACKERMANN"
+      },
+      {
+        "id": "card-44",
+        "front": "A pólusáthelyezés helyben hagyja a(z) ………….-okat.",
+        "back": "ZÉRUS"
+      },
+      {
+        "id": "card-45",
+        "front": "A(z) ……………… értelmében a pólusáthelyezés és a megfigyelő tervezése függetlenül elvégezhető.",
+        "back": "SZEPARÁCIÓS ELV"
+      },
+      {
+        "id": "card-46",
+        "front": "A lineáris kvadratikus irányítás röviden ………….",
+        "back": "LQ, L-Q"
+      },
+      {
+        "id": "card-47",
+        "front": "A lineáris kvadratikus irányítás ………….., mert egy kvadratikus alakot minimalizál.",
+        "back": "OPTIMÁLIS"
+      },
+      {
+        "id": "card-48",
+        "front": "Az LQ-irányítás ……………………….. eredményez.",
+        "back": "ÁLLAPOTVISSZACSATOLÁS"
+      },
+      {
+        "id": "card-49",
+        "front": "A lineáris kvadratikus irányítás ……………………….. eredményez.",
+        "back": "ÁLLAPOTVISSZACSATOLÁS"
+      },
+      {
+        "id": "card-50",
+        "front": "A CARE a Control Algebraic …………… Equation rövidítése.",
+        "back": "RICCATI"
+      },
+      {
+        "id": "card-51",
+        "front": "A CARE a(z) ………. Algebraic Riccati Equation rövidítése.",
+        "back": "CONTROL"
+      },
+      {
+        "id": "card-52",
+        "front": "A CARE a Control …………… Riccati Equation rövidítése.",
+        "back": "ALGEBRAIC"
+      },
+      {
+        "id": "card-53",
+        "front": "A CARE a Control Algebraic Riccati ……………. rövidítése.",
+        "back": "EQUATION"
+      },
+      {
+        "id": "card-54",
+        "front": "A mátrixegyenlet neve ……………-egyenlet.",
+        "back": "RICCATI vagy CARE"
+      },
+      {
+        "id": "card-55",
+        "front": "A FARE a Filter Algebraic …………… Equation rövidítése.",
+        "back": "RICCATI"
+      },
+      {
+        "id": "card-56",
+        "front": "A FARE a(z) ………. Algebraic Riccati Equation rövidítése.",
+        "back": "FILTER"
+      },
+      {
+        "id": "card-57",
+        "front": "A FARE a Filter …………… Riccati Equation rövidítése.",
+        "back": "ALGEBRAIC"
+      },
+      {
+        "id": "card-58",
+        "front": "A FARE a Filter Algebraic Riccati ……………. rövidítése.",
+        "back": "EQUATION"
+      }
+    ]
+  },
+{
+    "id": "flashcard-6",
+    "title": "Irányításelmélet vizsga 10. kérdések",
+    "description": "Szókitöltős fogalmak",
+    "cards": [
+      {
+        "id": "card-1",
+        "front": "Valamely folyamatról méréssel szerzett információ a(z) ……………..",
+        "back": "JEL"
+      },
+      {
+        "id": "card-2",
+        "front": "Az  jelet ……………….. idejű jelnek nevezzük, ahol .",
+        "back": "FOLYTONOS"
+      },
+      {
+        "id": "card-3",
+        "front": "Az  jelet ……………….. idejű jelnek nevezzük, ahol .",
+        "back": "DISZKRÉT"
+      },
+      {
+        "id": "card-4",
+        "front": "A folytonos idejű jelet más néven ……………….. jelnek nevezzük.",
+        "back": "ANALÓG"
+      },
+      {
+        "id": "card-5",
+        "front": "Folytonos idejű jelből diszkrét idejű jelet …………………. segítségével nyerhetünk.",
+        "back": "MINTAVÉTEL, MINTAVÉTELEZÉS"
+      },
+      {
+        "id": "card-6",
+        "front": "……………………………. jel esetében a jel mérésére tett minden kísérlet ugyanarra az eredményre vezet.",
+        "back": "DETERMINISZTIKUS"
+      },
+      {
+        "id": "card-7",
+        "front": "……………………………. jel esetében a jel mérésére tett minden kísérlet más és más eredményre vezet.",
+        "back": "SZTOCHASZTIKUS"
+      },
+      {
+        "id": "card-8",
+        "front": "……………………………. jel sok esetben megadható képlet formájában.",
+        "back": "DETERMINISZTIKUS"
+      },
+      {
+        "id": "card-9",
+        "front": "A következő összefüggéssel definiált jel a(z) ……………………. jel:",
+        "back": "EGYSÉGUGRÁS"
+      },
+      {
+        "id": "card-10",
+        "front": "A Heaviside-függvényt más néven ………….. jelnek nevezzük.",
+        "back": "EGYSÉGUGRÁS"
+      },
+      {
+        "id": "card-11",
+        "front": "Az egységugrásjel  helyen felvett értéke (számjeggyel írva): ………",
+        "back": "0"
+      },
+      {
+        "id": "card-12",
+        "front": "Az egységugrásjel  helyen felvett értéke (számjeggyel írva): ………",
+        "back": "1"
+      },
+      {
+        "id": "card-13",
+        "front": "Az egységnyi intenzitású impulzus határesete (amikor annak szélessége nullához tart) a(z) ……………. deltafüggvény.",
+        "back": "DIRAC"
+      },
+      {
+        "id": "card-14",
+        "front": "Az  alakú függvényt ………… jelnek nevezzük, ahol  tetszőleges időfüggvényt jelent.",
+        "back": "BELÉPŐ"
+      },
+      {
+        "id": "card-15",
+        "front": "Periodikus jelek esetében igaz, hogy , ahol T az ún. ……………….idő.",
+        "back": "PERIÓDUS"
+      },
+      {
+        "id": "card-16",
+        "front": "A tranziens összetevő  összefüggésében szereplő  változó neve: ……………..",
+        "back": "SAJÁTÉRTÉK"
+      },
+      {
+        "id": "card-17",
+        "front": "A tranziens összetevő  összefüggésében szereplő  változó neve: ……………..",
+        "back": "IDŐÁLLANDÓ"
+      },
+      {
+        "id": "card-18",
+        "front": "A sajátérték negatív reciproka a(z) ……………",
+        "back": "IDŐÁLLANDÓ"
+      },
+      {
+        "id": "card-19",
+        "front": "Az időállandó negatív reciproka a(z) ……………",
+        "back": "SAJÁTÉRTÉK"
+      },
+      {
+        "id": "card-20",
+        "front": "A(z) ………… egy valóságos objektum egy egyszerűsített leírása, modellje.",
+        "back": "RENDSZER"
+      },
+      {
+        "id": "card-21",
+        "front": "A(z) …………. egy transzformáció, ami a gerjesztéshez választ rendel.",
+        "back": "RENDSZER"
+      },
+      {
+        "id": "card-22",
+        "front": "A(z) …………. egy transzformáció, ami a bemenethez kimenetet rendel.",
+        "back": "RENDSZER"
+      },
+      {
+        "id": "card-23",
+        "front": "A rendszer …………… során a gerjesztés és a rendszer valamely leírása ismeretében határozzuk meg a választ.",
+        "back": "ANALÍZIS"
+      },
+      {
+        "id": "card-24",
+        "front": "A rendszeren végzett mérések alapján a rendszer modelljét a rendszer ……………. segítségével lehet meghatározni.",
+        "back": "IDENTIFIKÁCIÓ"
+      },
+      {
+        "id": "card-25",
+        "front": "A rendszer ……………. során ismert a rendszer leírása és a rendszer kimenete, s ezek birtokában határozzuk meg a rendszer bemenetét.",
+        "back": "SZINTÉZIS"
+      },
+      {
+        "id": "card-26",
+        "front": "Lineáris rendszer esetén érvényes a(z) ………………………. elve.",
+        "back": "SZUPERPOZÍCIÓ"
+      },
+      {
+        "id": "card-27",
+        "front": "……………. rendszer esetén igaz, hogy, amennyiben a rendszer az  gerjesztésre  válasszal felel, illetve az  gerjesztésre  válasszal, akkor a  gerjesztésre a válasz .",
+        "back": "LINEÁRIS"
+      },
+      {
+        "id": "card-28",
+        "front": "A(z) ……………. elve szerint, ha egy lineáris rendszer az  gerjesztésre  válasszal felel, illetve az  gerjesztésre  válasszal, akkor a  gerjesztésre a válasz .",
+        "back": "SZUPERPOZÍCIÓ"
+      },
+      {
+        "id": "card-29",
+        "front": "……………….. rendszer esetén a gerjesztés időbeli eltolása a válaszban ugyanekkora eltolást eredményez.",
+        "back": "INVARIÁNS"
+      },
+      {
+        "id": "card-30",
+        "front": "Fizikai, megvalósítható rendszer mindig ………………..",
+        "back": "KAUZÁLIS"
+      },
+      {
+        "id": "card-31",
+        "front": "Ha a rendszer korlátos gerjesztésre korlátos válasszal felel, akkor a rendszer …………….",
+        "back": "STABIL"
+      },
+      {
+        "id": "card-32",
+        "front": "Egy folytonos idejű, lineáris, invariáns és kauzális rendszer ………………… stabil, ha állapotvektora az origóba tart.",
+        "back": "ASZIMPTOTIKUS"
+      },
+      {
+        "id": "card-33",
+        "front": "A lineáris, invariáns és kauzális rendszer egységugrásjelre adott válasza az ún. ………………….válasz.",
+        "back": "UGRÁS"
+      },
+      {
+        "id": "card-34",
+        "front": "A lineáris, invariáns és kauzális rendszer Dirac-delta jelre adott válasza az ún. ………………….válasz.",
+        "back": "IMPULZUS"
+      },
+      {
+        "id": "card-35",
+        "front": "A lineáris, invariáns és kauzális rendszer tetszőleges bemenőjelre adott válasza az impulzusválasz ismeretében a(z) ………………….. segítségével számítható.",
+        "back": "KONVOLÚCIÓ, vagy SÚLYFÜGGVÉNY-TÉTEL, vagy SÚLYFÜGGVÉNY TÉTEL"
+      },
+      {
+        "id": "card-36",
+        "front": "Az  kifejezés neve: ……………………..",
+        "back": "KONVOLÚCIÓ, vagy SÚLYFÜGGVÉNY-TÉTEL, vagy SÚLYFÜGGVÉNY TÉTEL"
+      },
+      {
+        "id": "card-37",
+        "front": "A(z) ………….. n számú elsőrendű differenciálegyenletből áll.",
+        "back": "ÁLLAPOTVÁLTOZÓS LEÍRÁS vagy ÁLLAPOTEGYENLET"
+      },
+      {
+        "id": "card-38",
+        "front": "A nemlineáris rendszermodell bizonyos feltételek mellett az ún. ………………….. módszerével lineáris modellé alakítható.",
+        "back": "MUNKAPONTI LINEARIZÁLÁS"
+      },
+      {
+        "id": "card-39",
+        "front": "A(z) …………………… a szinuszos jel csúcsértékét és kezdőfázisát tartalmazza Euler-alakban.",
+        "back": "KOMPLEX CSÚCS"
+      },
+      {
+        "id": "card-40",
+        "front": "Szinuszos jelek kényelmes leírására alkalmas a(z) ………………….",
+        "back": "KOMPLEX CSÚCS"
+      },
+      {
+        "id": "card-41",
+        "front": "Szinuszos gerjesztő jel esetén a lineáris rendszer szinuszos kimenőjelének amplitúdója és fázisa eltérhet a bemenőjel amplitúdójától és fázisától. Ezt a kapcsolatot írja a(z) ……………………",
+        "back": "ÁTVITELI KARAKTERISZTIKA"
+      },
+      {
+        "id": "card-42",
+        "front": "A(z) ……………….. olyan rendszerjellemző függvény, amely szinuszos gerjesztést feltételezve jellemzi a lineáris rendszert.",
+        "back": "ÁTVITELI KARAKTERISZTIKA"
+      },
+      {
+        "id": "card-43",
+        "front": "A(z) ………………… minden körfrekvencián megadja a szinuszos kimenőjel és a szinuszos gerjesztő jel közötti kapcsolatot.",
+        "back": "ÁTVITELI KARAKTERISZTIKA"
+      },
+      {
+        "id": "card-44",
+        "front": "A(z) ………………… a szinuszos válaszjel komplex csúcsértékének és a szinuszos gerjesztő jel komplex csúcsértékének a hányadosa.",
+        "back": "ÁTVITELI KARAKTERISZTIKA"
+      },
+      {
+        "id": "card-45",
+        "front": "Az átviteli karakterisztika abszolút értéke a(z) …………….",
+        "back": "AMPLITÚDÓKARAKTERISZTIKA"
+      },
+      {
+        "id": "card-46",
+        "front": "Az átviteli karakterisztika fázisa a(z) …………….",
+        "back": "FÁZISKARAKTERISZTIKA"
+      },
+      {
+        "id": "card-47",
+        "front": "A(z) ……………………. azt adja meg, hogy szinuszos bemeneti jel esetén a rendszer milyen mértékben változtatja meg a bemenőjel amplitúdóját.",
+        "back": "AMPLITÚDÓKARAKTERISZTIKA"
+      },
+      {
+        "id": "card-48",
+        "front": "A(z) ……………………. azt adja meg, hogy szinuszos bemeneti jel esetén a rendszer milyen mértékben változtatja meg a bemenőjel csúcsértékét.",
+        "back": "AMPLITÚDÓKARAKTERISZTIKA"
+      },
+      {
+        "id": "card-49",
+        "front": "A(z) ……………………. azt adja meg, hogy szinuszos bemeneti jel esetén a rendszer milyen mértékben változtatja meg a bemenőjel kezdőfázisát.",
+        "back": "FÁZISKARAKTERISZTIKA"
+      },
+      {
+        "id": "card-50",
+        "front": "Szinuszos jelek esetén célszerű a komplex csúcsértékek (effektív értékek) alkalmazása. Az  összefüggésben szereplő  az ún. ……………………..",
+        "back": "ÁTVITELI KARAKTERISZTIKA"
+      },
+      {
+        "id": "card-51",
+        "front": "A(z) ……………-diagram az átviteli karakterisztikát a komplex számsíkon ábrázolja.",
+        "back": "NYQUIST"
+      },
+      {
+        "id": "card-52",
+        "front": "A(z) ……………-diagram az átviteli karakterisztikát, mint a  komplex vektor végpontját, körfrekvenciáról körfrekvenciára haladva ábrázolja a komplex számsíkon.",
+        "back": "NYQUIST"
+      },
+      {
+        "id": "card-53",
+        "front": "A(z) ……………-diagram az átviteli karakterisztikát két diagramon ábrázolja: külön az amplitúdókarakterisztikát és külön a fáziskarakterisztikát.",
+        "back": "BODE"
+      },
+      {
+        "id": "card-54",
+        "front": "A Nyquist-görbe a ……………. tengelyre szimmetrikus.",
+        "back": "VÍZSZINTES vagy REÁLIS vagy VALÓS"
+      },
+      {
+        "id": "card-55",
+        "front": "A Laplace-transzformáció  változója a(z) …………………. frekvencia.",
+        "back": "KOMPLEX"
+      },
+      {
+        "id": "card-56",
+        "front": "Az  összefüggésben szereplő  a(z) ……………………..",
+        "back": "ÁTVITELI FÜGGVÉNY"
+      },
+      {
+        "id": "card-57",
+        "front": "A(z) ……………… a kimenőjel Laplace-transzformáltjának és a bemenőjel Laplace-transzformáltjának a hányadosa.",
+        "back": "ÁTVITELI FÜGGVÉNY"
+      },
+      {
+        "id": "card-58",
+        "front": "Az átviteli függvény számlálója polinomjának gyökei a(z) …………….",
+        "back": "ZÉRUS"
+      },
+      {
+        "id": "card-59",
+        "front": "Az átviteli függvény nevezője polinomjának gyökei a(z) …………….",
+        "back": "PÓLUS"
+      },
+      {
+        "id": "card-60",
+        "front": "A(z) ………………. egy folyamatba való beavatkozás valamely cél elérése érdekében.",
+        "back": "IRÁNYÍTÁS"
+      },
+      {
+        "id": "card-61",
+        "front": "A(z) ……………….. nyílt láncú irányítás.",
+        "back": "VEZÉRLÉS"
+      },
+      {
+        "id": "card-62",
+        "front": "A vezérlés …………………. láncú irányítás.",
+        "back": "NYÍLT"
+      },
+      {
+        "id": "card-63",
+        "front": "A(z) ……………….. zárt láncú irányítás.",
+        "back": "SZABÁLYOZÁS"
+      },
+      {
+        "id": "card-64",
+        "front": "A szabályozás …………………. láncú irányítás.",
+        "back": "ZÁRT"
+      },
+      {
+        "id": "card-65",
+        "front": "A szabályozás ……………… visszacsatolást tartalmaz.",
+        "back": "NEGATÍV"
+      },
+      {
+        "id": "card-66",
+        "front": "A szabályozott folyamat kimenőjele a(z) ………….. jellemző.",
+        "back": "SZABÁLYOZOTT"
+      },
+      {
+        "id": "card-67",
+        "front": "Szabályozás esetén a folyamat kimenőjelét, más néven a(z) ………….. jellemzőt csatoljuk vissza.",
+        "back": "SZABÁLYOZOTT"
+      },
+      {
+        "id": "card-68",
+        "front": "A szabályozás célját a(z) …………………. jel fogalmazza meg.",
+        "back": "ALAP, vagy REFERENCIA"
+      },
+      {
+        "id": "card-69",
+        "front": "A szabályozott jellemzőt a(z) ………………… méri.",
+        "back": "SZENZOR, vagy ÉRZÉKELŐ"
+      },
+      {
+        "id": "card-70",
+        "front": "A szabályozott folyamat bemenetén általában egy teljesítményelektronikai berendezés, az ún. …………….. található.",
+        "back": "BEAVATKOZÓ, AKTUÁTOR"
+      },
+      {
+        "id": "card-71",
+        "front": "A beavatkozó szerv másik neve: …………………….. .",
+        "back": "AKTUÁTOR"
+      },
+      {
+        "id": "card-72",
+        "front": "Az alapjel és az ellenőrző jel különbsége a(z) ………………… .",
+        "back": "HIBAJEL"
+      },
+      {
+        "id": "card-73",
+        "front": "A szabályozó bemenőjele a(z) ………………… .",
+        "back": "HIBAJEL"
+      },
+      {
+        "id": "card-74",
+        "front": "A szabályozó kimenőjele a(z) ………………… .",
+        "back": "BEAVATKOZÓ JEL"
+      },
+      {
+        "id": "card-75",
+        "front": "A folyamat bemenőjele a(z) ………………… .",
+        "back": "BEAVATKOZÓ JEL"
+      },
+      {
+        "id": "card-76",
+        "front": "A folyamat kimenőjele a(z) ………………… .",
+        "back": "SZABÁLYOZOTT JELLEMZŐ"
+      },
+      {
+        "id": "card-77",
+        "front": "Az állapotváltozós leírásban szereplő  mátrix mérete , az ilyen mátrixot négyzetes, vagy ………………….. mátrixnak nevezzük.",
+        "back": "KVADRATIKUS"
+      },
+      {
+        "id": "card-78",
+        "front": "Az állapotváltozós leírásban szereplő  mátrixból számíthatók a(z) ………………….., amelyek felelősek a rendszer tranzienseiért.",
+        "back": "SAJÁTÉRTÉK"
+      },
+      {
+        "id": "card-79",
+        "front": "Az állapotváltozós leírásban szereplő  mátrixhoz rendelhetjük a , ún. ………………….. polinomot.",
+        "back": "KARAKTERISZTIKUS"
+      },
+      {
+        "id": "card-80",
+        "front": "A  egyenlet az ún. ………………………… egyenlet.",
+        "back": "KARAKTERISZTIKUS"
+      },
+      {
+        "id": "card-81",
+        "front": "A  egyenlet megoldásaként megkapjuk a rendszer  ………………………….",
+        "back": "SAJÁTÉRTÉK"
+      }
+    ]
+  }
 ]
